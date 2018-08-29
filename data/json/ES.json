@@ -1,0 +1,490 @@
+{
+	"representatives": [
+		{
+			"firstName": "Clara Eugenia",
+			"lastName": "Aguilera Garc\u00eda",
+			"email": "claraeugenia.aguileragarcia@europarl.europa.eu",
+			"membershipInDelegations": "DMER",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45783",
+			"strasbourgPhone": "+33(0)3 88 1 75783"
+		},
+		{
+			"firstName": "Marina",
+			"lastName": "Albiol Guzm\u00e1n",
+			"email": "marina.albiol@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45998",
+			"strasbourgPhone": "+33(0)3 88 1 75998"
+		},
+		{
+			"firstName": "In\u00e9s",
+			"lastName": "Ayala Sender",
+			"email": "ines.ayalasender@europarl.europa.eu",
+			"membershipInDelegations": "DMAG",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45508",
+			"strasbourgPhone": "+33(0)3 88 1 75508"
+		},
+		{
+			"firstName": "Pilar",
+			"lastName": "Ayuso",
+			"email": "pilar.ayuso@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45398",
+			"strasbourgPhone": "+33(0)3 88 1 75398"
+		},
+		{
+			"firstName": "Beatriz",
+			"lastName": "Becerra Basterrechea",
+			"email": "beatriz.becerra@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45312",
+			"strasbourgPhone": "+33(0)3 88 1 75312"
+		},
+		{
+			"firstName": "Xabier",
+			"lastName": "Benito Ziluaga",
+			"email": "xabier.benitoziluaga@europarl.europa.eu",
+			"membershipInDelegations": "DMER",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45281",
+			"strasbourgPhone": "+33(0)3 88 1 75281"
+		},
+		{
+			"firstName": "Izaskun",
+			"lastName": "Bilbao Barandica",
+			"email": "izaskun.bilbaobarandica@europarl.europa.eu",
+			"membershipInDelegations": "DAND",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45528",
+			"strasbourgPhone": "+33(0)3 88 1 75528"
+		},
+		{
+			"firstName": "Jos\u00e9",
+			"lastName": "Blanco L\u00f3pez",
+			"email": "jose.blancolopez@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45378",
+			"strasbourgPhone": "+33(0)3 88 1 75378"
+		},
+		{
+			"firstName": "Soledad",
+			"lastName": "Cabez\u00f3n Ruiz",
+			"email": "soledad.cabezonruiz@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45596",
+			"strasbourgPhone": "+33(0)3 88 1 75596"
+		},
+		{
+			"firstName": "Enrique",
+			"lastName": "Calvet Chambon",
+			"email": "enrique.calvetchambon@europarl.europa.eu",
+			"membershipInDelegations": "DPAL",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45794",
+			"strasbourgPhone": "+33(0)3 88 1 75794"
+		},
+		{
+			"firstName": "Javier",
+			"lastName": "Couso Permuy",
+			"email": "javier.cousopermuy@europarl.europa.eu",
+			"membershipInDelegations": "D-IQ",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45557",
+			"strasbourgPhone": "+33(0)3 88 1 75557"
+		},
+		{
+			"firstName": "Luis",
+			"lastName": "De Grandes Pascual",
+			"email": "luis.degrandespascual@europarl.europa.eu",
+			"membershipInDelegations": "DAND",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45512",
+			"strasbourgPhone": "+33(0)3 88 1 75512"
+		},
+		{
+			"firstName": "Pilar",
+			"lastName": "Del Castillo Vera",
+			"email": "pilar.delcastillo@europarl.europa.eu",
+			"membershipInDelegations": "D-BR\r\nDMER",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45982",
+			"strasbourgPhone": "+33(0)3 88 1 75982"
+		},
+		{
+			"firstName": "Agust\u00edn",
+			"lastName": "D\u00edaz De Mera Garc\u00eda Consuegra",
+			"email": "agustin.diazdemera@europarl.europa.eu",
+			"membershipInDelegations": "DAND",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45624",
+			"strasbourgPhone": "+33(0)3 88 1 75624"
+		},
+		{
+			"firstName": "Rosa",
+			"lastName": "Estar\u00e0s Ferragut",
+			"email": "rosa.estaras@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45163",
+			"strasbourgPhone": "+33(0)3 88 1 75163"
+		},
+		{
+			"firstName": "Jon\u00e1s",
+			"lastName": "Fern\u00e1ndez",
+			"email": "jonas.fernandezalvarez@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45174",
+			"strasbourgPhone": "+33(0)3 88 1 75174"
+		},
+		{
+			"firstName": "Santiago",
+			"lastName": "Fisas Ayxel\u00e0",
+			"email": "santiago.fisasayxela@europarl.europa.eu",
+			"membershipInDelegations": "DMAG",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45169",
+			"strasbourgPhone": "+33(0)3 88 1 75169"
+		},
+		{
+			"firstName": "Francesc",
+			"lastName": "Gamb\u00fas",
+			"email": "francesc.gambus@europarl.europa.eu",
+			"membershipInDelegations": "DMAS",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45102",
+			"strasbourgPhone": "+33(0)3 88 1 75102"
+		},
+		{
+			"firstName": "Iratxe",
+			"lastName": "Garc\u00eda P\u00e9rez",
+			"email": "iratxe.garcia-perez@europarl.europa.eu",
+			"membershipInDelegations": "DARP",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45646",
+			"strasbourgPhone": "+33(0)3 88 1 75646"
+		},
+		{
+			"firstName": "Eider",
+			"lastName": "Gardiazabal Rubial",
+			"email": "eider.gardiazabalrubial@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45333",
+			"strasbourgPhone": "+33(0)3 88 1 75333"
+		},
+		{
+			"firstName": "Mar\u00eda Teresa",
+			"lastName": "Gim\u00e9nez Barbat",
+			"email": "teresa.gimenezbarbat@europarl.europa.eu",
+			"membershipInDelegations": "DMAG",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45592",
+			"strasbourgPhone": "+33(0)3 88 1 75592"
+		},
+		{
+			"firstName": "Tania",
+			"lastName": "Gonz\u00e1lez Pe\u00f1as",
+			"email": "tania.gonzalezpenas@europarl.europa.eu",
+			"membershipInDelegations": "DAND",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45141",
+			"strasbourgPhone": "+33(0)3 88 1 75141"
+		},
+		{
+			"firstName": "Esteban",
+			"lastName": "Gonz\u00e1lez Pons",
+			"email": "esteban.gonzalezpons@europarl.europa.eu",
+			"membershipInDelegations": "D-IL",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45372",
+			"strasbourgPhone": "+33(0)3 88 1 75372"
+		},
+		{
+			"firstName": "Enrique",
+			"lastName": "Guerrero Salom",
+			"email": "enrique.guerrerosalom@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45334",
+			"strasbourgPhone": "+33(0)3 88 1 75334"
+		},
+		{
+			"firstName": "Sergio",
+			"lastName": "Guti\u00e9rrez Prieto",
+			"email": "sergio.gutierrezprieto@europarl.europa.eu",
+			"membershipInDelegations": "DPAL",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45331",
+			"strasbourgPhone": "+33(0)3 88 1 75331"
+		},
+		{
+			"firstName": "Esther",
+			"lastName": "Herranz Garc\u00eda",
+			"email": "esther.herranzgarcia@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45274",
+			"strasbourgPhone": "+33(0)3 88 1 75274"
+		},
+		{
+			"firstName": "Carlos",
+			"lastName": "Iturgaiz",
+			"email": "carlos.iturgaiz@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45291",
+			"strasbourgPhone": "+33(0)3 88 1 75291"
+		},
+		{
+			"firstName": "Ram\u00f3n",
+			"lastName": "J\u00e1uregui Atondo",
+			"email": "ramon.jaureguiatondo@europarl.europa.eu",
+			"membershipInDelegations": "DAND",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45582",
+			"strasbourgPhone": "+33(0)3 88 1 75582"
+		},
+		{
+			"firstName": "Teresa",
+			"lastName": "Jim\u00e9nez-Becerril Barrio",
+			"email": "teresa.jimenez-becerril@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "F",
+			"brusselsPhone": "32(0)2 28 45198",
+			"strasbourgPhone": "33(0)3 88 1 75198"
+		},
+		{
+			"firstName": "Ver\u00f3nica",
+			"lastName": "Lope Fontagn\u00e9",
+			"email": "veronica.lopefontagne@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45223",
+			"strasbourgPhone": "+33(0)3 88 1 75223"
+		},
+		{
+			"firstName": "Javi",
+			"lastName": "L\u00f3pez",
+			"email": "javi.lopez@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45625",
+			"strasbourgPhone": "+33(0)3 88 1 75625"
+		},
+		{
+			"firstName": "Juan Fernando",
+			"lastName": "L\u00f3pez Aguilar",
+			"email": "juanfernando.lopezaguilar@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45336",
+			"strasbourgPhone": "+33(0)3 88 1 75336"
+		},
+		{
+			"firstName": "Paloma",
+			"lastName": "L\u00f3pez Bermejo",
+			"email": "paloma.lopez@europarl.europa.eu",
+			"membershipInDelegations": "DMAS",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45495",
+			"strasbourgPhone": "+33(0)3 88 1 75495"
+		},
+		{
+			"firstName": "Antonio",
+			"lastName": "L\u00f3pez-Ist\u00fariz White",
+			"email": "antonio.lopezisturiz@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45713",
+			"strasbourgPhone": "+33(0)3 88 1 75713"
+		},
+		{
+			"firstName": "Florent",
+			"lastName": "Marcellesi",
+			"email": "florent.marcellesi@europarl.europa.eu",
+			"membershipInDelegations": "DMAG",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45743",
+			"strasbourgPhone": "+33(0)3 88 1 75743"
+		},
+		{
+			"firstName": "Gabriel",
+			"lastName": "Mato",
+			"email": "gabriel.mato@europarl.europa.eu",
+			"membershipInDelegations": "DCAM",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45237",
+			"strasbourgPhone": "+33(0)3 88 1 75237"
+		},
+		{
+			"firstName": "Miroslav",
+			"lastName": "Mikol\u00e1\u0161ik",
+			"email": "miroslav.mikolasik@europarl.europa.eu",
+			"membershipInDelegations": "DCAM",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45289",
+			"strasbourgPhone": "+33(0)3 88 1 75289"
+		},
+		{
+			"firstName": "Anne-Marie",
+			"lastName": "Mineur",
+			"email": "anne-marie.mineur@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45129",
+			"strasbourgPhone": "+33(0)3 88 1 75129"
+		},
+		{
+			"firstName": "J\u00f3zsef",
+			"lastName": "Nagy",
+			"email": "jozsef.nagy@europarl.europa.eu",
+			"membershipInDelegations": "DKOR",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45212",
+			"strasbourgPhone": "+33(0)3 88 1 75212"
+		},
+		{
+			"firstName": "Urmas",
+			"lastName": "Paet",
+			"email": "urmas.paet@europarl.europa.eu",
+			"membershipInDelegations": "DCAS",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45930",
+			"strasbourgPhone": "+33(0)3 88 1 75930"
+		},
+		{
+			"firstName": "Franck",
+			"lastName": "Proust",
+			"email": "franck.proust@europarl.europa.eu",
+			"membershipInDelegations": "DASE",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45841",
+			"strasbourgPhone": "+33(0)3 88 1 75841"
+		},
+		{
+			"firstName": "Maria Jo\u00e3o",
+			"lastName": "Rodrigues",
+			"email": "mariajoao.rodrigues@europarl.europa.eu",
+			"membershipInDelegations": "D-CN",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45863",
+			"strasbourgPhone": "+33(0)3 88 1 75863"
+		},
+		{
+			"firstName": "Sofia",
+			"lastName": "Sakorafa",
+			"email": "sofia.sakorafa@europarl.europa.eu",
+			"membershipInDelegations": "DCAM",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45725",
+			"strasbourgPhone": "+33(0)3 88 1 75725"
+		},
+		{
+			"firstName": "Massimiliano",
+			"lastName": "Salini",
+			"email": "massimiliano.salini@europarl.europa.eu",
+			"membershipInDelegations": "D-IN",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45504",
+			"strasbourgPhone": "+33(0)3 88 1 75504"
+		},
+		{
+			"firstName": "Olga",
+			"lastName": "Sehnalov\u00e1",
+			"email": "olga.sehnalova@europarl.europa.eu",
+			"membershipInDelegations": "D-IL",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45417",
+			"strasbourgPhone": "+33(0)3 88 1 75417"
+		},
+		{
+			"firstName": "Csaba",
+			"lastName": "S\u00f3gor",
+			"email": "csaba.sogor@europarl.europa.eu",
+			"membershipInDelegations": "D-JP",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45389",
+			"strasbourgPhone": "+33(0)3 88 1 75389"
+		},
+		{
+			"firstName": "Keith",
+			"lastName": "Taylor",
+			"email": "keith.taylor@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45153",
+			"strasbourgPhone": "+33(0)3 88 1 75153"
+		},
+		{
+			"firstName": "Romana",
+			"lastName": "Tomc",
+			"email": "romana.tomc@europarl.europa.eu",
+			"membershipInDelegations": "D-JP",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45665",
+			"strasbourgPhone": "+33(0)3 88 1 75665"
+		},
+		{
+			"firstName": "Ev\u017een",
+			"lastName": "To\u0161enovsk\u00fd",
+			"email": "evzen.tosenovsky@europarl.europa.eu",
+			"membershipInDelegations": "D-CN",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45717",
+			"strasbourgPhone": "+33(0)3 88 1 75717"
+		},
+		{
+			"firstName": "Marita",
+			"lastName": "Ulvskog",
+			"email": "marita.ulvskog@europarl.europa.eu",
+			"membershipInDelegations": "DPAL",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45443",
+			"strasbourgPhone": "+33(0)3 88 1 75443"
+		},
+		{
+			"firstName": "Traian",
+			"lastName": "Ungureanu",
+			"email": "traian.ungureanu@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45785",
+			"strasbourgPhone": "+33(0)3 88 1 75785"
+		},
+		{
+			"firstName": "Inese",
+			"lastName": "Vaidere",
+			"email": "inese.vaidere@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45424",
+			"strasbourgPhone": "+33(0)3 88 1 75424"
+		},
+		{
+			"firstName": "Ram\u00f3n Luis",
+			"lastName": "Valc\u00e1rcel Siso",
+			"email": "ramonluis.valcarcelsiso@europarl.europa.eu",
+			"membershipInDelegations": "DMAS",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45815",
+			"strasbourgPhone": "+33(0)3 88 1 75815"
+		},
+		{
+			"firstName": "Bodil",
+			"lastName": "Valero",
+			"email": "bodil.valero@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45768",
+			"strasbourgPhone": "+33(0)3 88 1 75768"
+		}
+	]
+}

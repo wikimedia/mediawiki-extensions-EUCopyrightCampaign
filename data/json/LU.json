@@ -1,0 +1,58 @@
+{
+	"representatives": [
+		{
+			"firstName": "Georges",
+			"lastName": "Bach",
+			"email": "georges.bach@europarl.europa.eu",
+			"membershipInDelegations": "DEEA",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45113",
+			"strasbourgPhone": "+33(0)3 88 1 75113"
+		},
+		{
+			"firstName": "Mady",
+			"lastName": "Delvaux",
+			"email": "mady.delvaux-stehres@europarl.europa.eu",
+			"membershipInDelegations": "DCAS",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45136",
+			"strasbourgPhone": "+33(0)3 88 1 75136"
+		},
+		{
+			"firstName": "Frank",
+			"lastName": "Engel",
+			"email": "frank.engel@europarl.europa.eu",
+			"membershipInDelegations": "D-CN",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45162",
+			"strasbourgPhone": "+33(0)3 88 1 75162"
+		},
+		{
+			"firstName": "Charles",
+			"lastName": "Goerens",
+			"email": "charles.goerens@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45612",
+			"strasbourgPhone": "+33(0)3 88 1 75612"
+		},
+		{
+			"firstName": "Julia",
+			"lastName": "Reda",
+			"email": "julia.reda@europarl.europa.eu",
+			"membershipInDelegations": "D-CN",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45732",
+			"strasbourgPhone": "+33(0)3 88 1 75732"
+		},
+		{
+			"firstName": "Helga",
+			"lastName": "Tr\u00fcpel",
+			"email": "helga.truepel@europarl.europa.eu",
+			"membershipInDelegations": "D-CN",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45140",
+			"strasbourgPhone": "+33(0)3 88 1 75140"
+		}
+	]
+}
