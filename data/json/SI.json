@@ -1,0 +1,76 @@
+{
+	"representatives": [
+		{
+			"firstName": "Franc",
+			"lastName": "Bogovi\u010d",
+			"email": "franc.bogovic@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45583",
+			"strasbourgPhone": "+33(0)3 88 1 75583"
+		},
+		{
+			"firstName": "Tanja",
+			"lastName": "Fajon",
+			"email": "tanja.fajon@europarl.europa.eu",
+			"membershipInDelegations": "DSEE",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45493",
+			"strasbourgPhone": "+33(0)3 88 1 75493"
+		},
+		{
+			"firstName": "Vincent",
+			"lastName": "Peillon",
+			"email": "vincent.peillon@europarl.europa.eu",
+			"membershipInDelegations": "DMAG",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45928",
+			"strasbourgPhone": "+33(0)3 88 1 75928"
+		},
+		{
+			"firstName": "Michaela",
+			"lastName": "\u0160ojdrov\u00e1",
+			"email": "michaela.sojdrova@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45565",
+			"strasbourgPhone": "+33(0)3 88 1 75565"
+		},
+		{
+			"firstName": "Dubravka",
+			"lastName": "\u0160uica",
+			"email": "dubravka.suica@europarl.europa.eu",
+			"membershipInDelegations": "DSEE",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45175",
+			"strasbourgPhone": "+33(0)3 88 1 75175"
+		},
+		{
+			"firstName": "Valdemar",
+			"lastName": "Toma\u0161evski",
+			"email": "valdemar.tomasevski@europarl.europa.eu",
+			"membershipInDelegations": "D-BY",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45698",
+			"strasbourgPhone": "+33(0)3 88 1 75698"
+		},
+		{
+			"firstName": "Viktor",
+			"lastName": "Uspaskich",
+			"email": "viktor.uspaskich@europarl.europa.eu",
+			"membershipInDelegations": "DCAS",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45339",
+			"strasbourgPhone": "+33(0)3 88 1 75339"
+		},
+		{
+			"firstName": "\u017deljana",
+			"lastName": "Zovko",
+			"email": "zeljana.zovko@europarl.europa.eu",
+			"membershipInDelegations": "DSEE",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45579",
+			"strasbourgPhone": "+33(0)3 88 1 75579"
+		}
+	]
+}

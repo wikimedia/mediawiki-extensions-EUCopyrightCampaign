@@ -1,0 +1,76 @@
+{
+	"representatives": [
+		{
+			"firstName": "Iveta",
+			"lastName": "Grigule-P\u0113terse",
+			"email": "iveta.grigule-peterse@europarl.europa.eu",
+			"membershipInDelegations": "D-BY\r\nD-IL\r\nDARP\r\nD-US\r\nDCAS",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45276",
+			"strasbourgPhone": "+33(0)3 88 1 75276"
+		},
+		{
+			"firstName": "Sandra",
+			"lastName": "Kalniete",
+			"email": "sandra.kalniete@europarl.europa.eu",
+			"membershipInDelegations": "DASE",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45204",
+			"strasbourgPhone": "+33(0)3 88 1 75204"
+		},
+		{
+			"firstName": "Kri\u0161j\u0101nis",
+			"lastName": "Kari\u0146\u0161",
+			"email": "krisjanis.karins@europarl.europa.eu",
+			"membershipInDelegations": "D-US",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45205",
+			"strasbourgPhone": "+33(0)3 88 1 75205"
+		},
+		{
+			"firstName": "Andrejs",
+			"lastName": "Mamikins",
+			"email": "andrejs.mamikins@europarl.europa.eu",
+			"membershipInDelegations": "D-BY",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45373",
+			"strasbourgPhone": "+33(0)3 88 1 75373"
+		},
+		{
+			"firstName": "Ana",
+			"lastName": "Miranda",
+			"email": "ana.miranda@europarl.europa.eu",
+			"membershipInDelegations": "D-US",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45628",
+			"strasbourgPhone": "+33(0)3 88 1 75628"
+		},
+		{
+			"firstName": "Stanis\u0142aw",
+			"lastName": "O\u017c\u00f3g",
+			"email": "stanislaw.ozog@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45653",
+			"strasbourgPhone": "+33(0)3 88 1 75653"
+		},
+		{
+			"firstName": "Vladimir",
+			"lastName": "Urutchev",
+			"email": "vladimir.urutchev@europarl.europa.eu",
+			"membershipInDelegations": "D-RU",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45145",
+			"strasbourgPhone": "+33(0)3 88 1 75145"
+		},
+		{
+			"firstName": "Janusz",
+			"lastName": "Zemke",
+			"email": "janusz.zemke@europarl.europa.eu",
+			"membershipInDelegations": "D-US",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45426",
+			"strasbourgPhone": "+33(0)3 88 1 75426"
+		}
+	]
+}

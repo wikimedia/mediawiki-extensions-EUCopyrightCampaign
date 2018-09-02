@@ -1,0 +1,228 @@
+#eucc-form-container {
+	.eeuc-process-layout{
+		width: 100%;
+		.eucc-selection-layout {
+			margin-top: 25px;
+			margin-bottom: 25px;
+			.oo-ui-fieldLayout {
+				width: 260px;
+				margin-right: 1.5em;
+				.oo-ui-fieldLayout-header label {
+					font-weight: bold;
+				}
+				.oo-ui-dropdownWidget {
+					width: 100%;
+					background-color: #fff;
+					.oo-ui-dropdownWidget-handle {
+						background-color: #fff;
+					}
+				}
+			}
+		}
+		.eucc-content-layout {
+			.oo-ui-fieldLayout-body {
+				.oo-ui-fieldLayout-header label {
+					font-weight: bold;
+				}
+			}
+			.eucc-contact-widget {
+				.eucc-contact-text-container-outer {
+					background-color: white;
+					overflow: auto;
+					margin-bottom: 20px;
+				}
+				.eucc-contact-text-container {
+					margin: 20px;
+					outline: none;
+					line-height: 1.6em;
+					p:first-child {
+						margin-bottom: 30px;
+					}
+					p:last-of-type {
+						margin-top: 30px;
+					}
+					.oo-ui-textInputWidget {
+						width: 150px;
+						display: inline-block;
+						margin-left: 5px;
+						input, textarea {
+							height: 20px;
+							border: none;
+							padding: 0;
+							border-bottom: 2px solid #bfbfbf;
+							&:focus {
+								outline: none;
+								-webkit-box-shadow: none;
+								box-shadow: none;
+							}
+						}
+						.oo-ui-indicator-required {
+							display: none;
+						}
+						&.oo-ui-textInputWidget-type-email {
+							width: 230px;
+							margin-left: 0;
+						}
+						&:first-of-type {
+							margin-right: 10px;
+						}
+						&.oo-ui-flaggedElement-invalid {
+							input {
+								border-bottom: 2px solid red;
+							}
+						}
+					}
+					.oo-ui-checkboxInputWidget {
+						vertical-align: top;
+					}
+					.eucc-multiline-text-input {
+						width: 100%;
+						margin: 0px;
+						textarea {
+							height: 60px;
+						}
+					}
+					.eucc-checkbox-multioption-text-widget {
+						border-top: 1px solid #bfbfbf;
+						padding-top: 10px;
+						padding-bottom: 10px;
+						.oo-ui-checkboxInputWidget {
+							span.oo-ui-checkboxInputWidget-checkIcon {
+								margin-top: 3px;
+							}
+						}
+						.oo-ui-labelElement-label {
+							padding-left: 20px;
+							display: block;
+							font-weight: bold;
+						}
+						.eucc-checkbox-multioption-text-widget-text {
+							padding-left: 20px;
+							display: block;
+							font-size: 0.8em;
+						}
+					}
+					.eucc-email-newsletter-container {
+						font-size: 0.9em;
+						margin-top: 25px;
+						label {
+							display: inline;
+						}
+						a {
+							margin-left: 10px;
+						}
+					}
+				}
+				.oo-ui-buttonElement-frameless:focus {
+					box-shadow: none;
+					border: none;
+					-webkit-box-shadow: none;
+				}
+				.eucc-copy-to-clipboard-status {
+					margin-left: 10px;
+					font-size: 0.8em;
+					color: grey;
+				}
+			}
+		}
+		.eucc-call-layout {
+			margin-top: 25px;
+			.oo-ui-fieldLayout-body {
+				.oo-ui-fieldLayout-header label {
+					font-weight: bold;
+				}
+			}
+			.eucc-call-widget {
+				margin: 20px;
+				text-align: justify;
+				label {
+					display: block;
+					margin-top: 20px;
+					&.eucc-call-script-label {
+						font-weight: bold;
+					}
+				}
+				#eucc-call-script {
+					margin-top: 20px;
+					ol {
+						li {
+							margin-bottom: 1em;
+							ul {
+								li {
+									list-style-type: disc;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.eucc-thank-you-layout {
+			background-color: #fff;
+			overflow: auto;
+			.eucc-thank-you-icon {
+				margin: 40px 0px 20px 20px;
+				display: inline-block;
+				vertical-align: top;
+				width: 50px;
+				text-align: right;
+				.oo-ui-icon-eucc-check {
+					/* @embed */
+					background-image: url('images/checkmark-done.svg');
+					width: 50px;
+					height: 35px;
+				}
+			}
+			.eucc-thank-you-content {
+				display: inline-block;
+				vertical-align: top;
+				margin: 40px 20px 40px 20px;
+				max-width: 550px;
+				.eucc-thank-you-header {
+					display: block;
+					font-size: 1.2em;
+					font-weight: bold;
+					color: #00AF89;
+					margin-bottom: 5px;
+				}
+				.eucc-thank-you-text {
+					display: block;
+					font-size: 0.8em;
+					text-align: justify;
+				}
+				.eucc-thank-you-tweet-container {
+					margin-top: 40px;
+					.oo-ui-labelWidget {
+						display: block;
+						font-weight: bold;
+						font-size: 1.2em;
+					}
+					.eucc-share-tweet-text {
+						width: 250px;
+						font-size: 0.8em;
+						border: 2px solid #bfbfbf;
+						word-wrap: normal;
+						height: auto;
+						display: block;
+						padding: 10px;
+						margin-top: 10px;
+						margin-bottom: 10px;
+						line-height: 1.4em;
+						a {
+							display: inline-block;
+							&.policy-link:before {
+								content: '\01F449';
+							}
+						}
+					}
+					.oo-ui-buttonWidget {
+					}
+				}
+			}
+		}
+	}
+}
+
+#eucc-call-script {
+	display: none;
+}
