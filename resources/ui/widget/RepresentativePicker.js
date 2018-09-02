@@ -1,4 +1,4 @@
-( function( mw, $, d ) {
+( function( mw, $ ) {
 	eucc.ui.RepresentativePickerWidget = function( cfg ) {
 		this.country = cfg.country;
 
@@ -56,4 +56,4 @@
 		this.menu.addItems( representativesOptions );
 	};
 
-} ) ( mediaWiki, jQuery, document );
+} ) ( mediaWiki, jQuery );

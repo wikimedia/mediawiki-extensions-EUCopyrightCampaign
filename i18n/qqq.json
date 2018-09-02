@@ -7,6 +7,7 @@
 	},
 	"contactyourmep": "The name of the extension's entry in Special:SpecialPages",
 	"contactyourmep-desc": "{{desc}}",
+	"eucopyrightcampaign-desc": "Extension description",
 	"apihelp-eucc-get-representatives-summary": "Description of eucc-get-representatives API",
 	"apihelp-eucc-get-representatives-param-country": "Description for country param of eucc-get-representatives API",
 	"eucc-country-picker-layout-label": "Label for first step of the process, selecting representative",

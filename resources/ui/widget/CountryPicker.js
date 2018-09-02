@@ -1,4 +1,4 @@
-( function( mw, $, d ) {
+( function( mw, $ ) {
 	eucc.ui.CountryPickerWidget = function( cfg ) {
 		this.availableCountries = cfg.availableCountries;
 
@@ -6,7 +6,7 @@
 		for( var countryCode in this.availableCountries ) {
 			var countryIcon = 'flag-' + countryCode.toLowerCase();
 
-			menuOptions.push( 
+			menuOptions.push(
 				new OO.ui.MenuOptionWidget( {
 					icon: countryIcon,
 					data: countryCode,
@@ -54,4 +54,4 @@
 		}
 	};
 
-} ) ( mediaWiki, jQuery, document );
+} ) ( mediaWiki, jQuery );

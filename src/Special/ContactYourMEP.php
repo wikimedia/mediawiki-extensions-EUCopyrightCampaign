@@ -66,12 +66,19 @@ class ContactYourMEP extends \IncludableSpecialPage {
 		$out->enableOOUI();
 		$out->addHTML( \Html::element( 'div', [ 'id' => 'eucc-form-container' ] ) );
 
-		// Is this allowed?
 		$out->addHTML( \Html::openElement( 'div', [
 			'id' => 'eucc-call-script',
 			'style' => 'display: none;'
 		] ) );
-		$out->addHTML( wfMessage( 'eucc-call-script-text' )->parseAsBlock() );
+		$out->addHTML( $this->msg( 'eucc-call-script-text' )->parseAsBlock() );
 		$out->addHTML( \Html::closeElement( 'div' ) );
+	}
+
+	/**
+	 * {@inheritdoc}
+	 * @return int
+	 */
+	protected function getCacheTTL() {
+		return 60 * 60 * 24;
 	}
 }

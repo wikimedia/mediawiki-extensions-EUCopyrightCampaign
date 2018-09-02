@@ -7,6 +7,7 @@
 	},
 	"contactyourmep": "ContactYourMEP",
 	"contactyourmep-desc": "Adds Contact Your MEP form",
+	"eucopyrightcampaign-desc": "Extension that allows citizens of the EU to contact their representatives",
 	"apihelp-eucc-get-representatives-summary": "Retrieves list of representatives for a given country",
 	"apihelp-eucc-get-representatives-param-country": "Specifies the country to get a list of representatives for",
 	"eucc-country-picker-layout-label": "1. Let's find your representative",

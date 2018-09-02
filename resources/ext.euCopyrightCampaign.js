@@ -1,4 +1,4 @@
-( function( mw, $, d ) {
+( function( mw, $ ) {
 
 	eucc.ContactMEP = function() {
 		this.$element = $( '<div>' );
@@ -250,4 +250,4 @@
 		}
 	}.bind( form );
 
-} ) ( mediaWiki, jQuery, document );
+} ) ( mediaWiki, jQuery );

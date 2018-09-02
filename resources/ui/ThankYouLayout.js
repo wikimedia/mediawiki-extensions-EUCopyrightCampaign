@@ -1,4 +1,4 @@
-( function( mw, $, d ) {
+( function( mw, $ ) {
 	eucc.ui.ThankYouLayout = function( cfg ) {
 		eucc.ui.ThankYouLayout.parent.call( this, cfg );
 
@@ -83,4 +83,4 @@
 		this.$contentContainer.append( this.$tweetContainer );
 	};
 
-} ) ( mediaWiki, jQuery, document );
+} ) ( mediaWiki, jQuery );

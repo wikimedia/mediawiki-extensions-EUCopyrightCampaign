@@ -1,4 +1,4 @@
-( function( mw, $, d ) {
+( function( mw, $ ) {
 	eucc.ui.CheckboxMultioptionTextWidget = function( cfg ) {
 		eucc.ui.CheckboxMultioptionTextWidget.parent.call( this, cfg );
 
@@ -19,4 +19,4 @@
 		return this.text;
 	};
 
-} ) ( mediaWiki, jQuery, document );
+} ) ( mediaWiki, jQuery );

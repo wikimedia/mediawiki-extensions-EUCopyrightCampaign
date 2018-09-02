@@ -1,4 +1,4 @@
-( function( mw, $, d ) {
+( function( mw, $ ) {
 	eucc.ui.CallWidget = function( cfg ) {
 		eucc.ui.CallWidget.parent.call( this, cfg );
 
@@ -46,4 +46,4 @@
 
 	OO.inheritClass( eucc.ui.CallWidget, OO.ui.Widget );
 
-} ) ( mediaWiki, jQuery, document );
+} ) ( mediaWiki, jQuery );

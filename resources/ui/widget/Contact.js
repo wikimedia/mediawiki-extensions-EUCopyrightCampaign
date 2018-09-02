@@ -1,4 +1,4 @@
-( function( mw, $, d ) {
+( function( mw, $ ) {
 	eucc.ui.ContactWidget = function( cfg ) {
 		this.representative = cfg.representative;
 		this.country = cfg.country;
@@ -415,4 +415,4 @@
 		return baseMsgKey + '-v' + variationNumber;
 	}
 
-} ) ( mediaWiki, jQuery, document );
+} ) ( mediaWiki, jQuery );
