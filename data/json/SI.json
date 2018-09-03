@@ -7,7 +7,8 @@
 			"membershipInDelegations": "",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45583",
-			"strasbourgPhone": "+33(0)3 88 1 75583"
+			"strasbourgPhone": "+33(0)3 88 1 75583",
+			"twitter": "Franc"
 		},
 		{
 			"firstName": "Tanja",
@@ -16,7 +17,8 @@
 			"membershipInDelegations": "DSEE",
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45493",
-			"strasbourgPhone": "+33(0)3 88 1 75493"
+			"strasbourgPhone": "+33(0)3 88 1 75493",
+			"twitter": "Tanja"
 		},
 		{
 			"firstName": "Vincent",
@@ -25,7 +27,8 @@
 			"membershipInDelegations": "DMAG",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45928",
-			"strasbourgPhone": "+33(0)3 88 1 75928"
+			"strasbourgPhone": "+33(0)3 88 1 75928",
+			"twitter": "Vincent"
 		},
 		{
 			"firstName": "Michaela",
@@ -34,7 +37,8 @@
 			"membershipInDelegations": "",
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45565",
-			"strasbourgPhone": "+33(0)3 88 1 75565"
+			"strasbourgPhone": "+33(0)3 88 1 75565",
+			"twitter": "Michaela"
 		},
 		{
 			"firstName": "Dubravka",
@@ -43,7 +47,8 @@
 			"membershipInDelegations": "DSEE",
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45175",
-			"strasbourgPhone": "+33(0)3 88 1 75175"
+			"strasbourgPhone": "+33(0)3 88 1 75175",
+			"twitter": "Dubravka"
 		},
 		{
 			"firstName": "Valdemar",
@@ -52,7 +57,8 @@
 			"membershipInDelegations": "D-BY",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45698",
-			"strasbourgPhone": "+33(0)3 88 1 75698"
+			"strasbourgPhone": "+33(0)3 88 1 75698",
+			"twitter": "Valdemar"
 		},
 		{
 			"firstName": "Viktor",
@@ -61,7 +67,8 @@
 			"membershipInDelegations": "DCAS",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45339",
-			"strasbourgPhone": "+33(0)3 88 1 75339"
+			"strasbourgPhone": "+33(0)3 88 1 75339",
+			"twitter": "Viktor"
 		},
 		{
 			"firstName": "\u017deljana",
@@ -70,7 +77,8 @@
 			"membershipInDelegations": "DSEE",
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45579",
-			"strasbourgPhone": "+33(0)3 88 1 75579"
+			"strasbourgPhone": "+33(0)3 88 1 75579",
+			"twitter": "\u017deljana"
 		}
 	]
 }

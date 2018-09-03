@@ -73,8 +73,8 @@
 			country: this.selectedCountry
 		} );
 
-		this.contactWidget.on( 'copyEmail', this.onCopyEmail.bind( this ) );
-		this.contactWidget.on( 'generateEmail', this.onGenerateEmail.bind( this ) );
+		this.contactWidget.on( 'actionDone', this.onContactActionDone.bind( this ) );
+		this.contactWidget.on( 'dialogOpened', this.onDialogOpened.bind( this ) );
 
 		this.contactLayout = new OO.ui.FieldLayout( this.contactWidget, {
 			align: 'top',
@@ -83,30 +83,6 @@
 		this.contactLayout.$element.addClass( 'eucc-content-layout' );
 
 		this.$element.append( this.contactLayout.$element );
-	};
-
-	eucc.ContactMEP.prototype.makeCallPanel = function() {
-		if( $.isEmptyObject( this.selectedRepresentative ) ) {
-			// for sanity
-			return;
-		}
-
-		if( this.callLayout ) {
-			this.callLayout.$element.remove();
-		}
-
-		this.callWidget = new eucc.ui.CallWidget( {
-			representative: this.selectedRepresentative,
-			callScriptContainer: $( '#eucc-call-script' )
-		} );
-
-		this.callLayout = new OO.ui.FieldLayout( this.callWidget, {
-			align: 'top',
-			label: mw.message( 'eucc-call-layout-label' ).text()
-		} );
-		this.callLayout.$element.addClass( 'eucc-call-layout' );
-
-		this.$element.append( this.callLayout.$element );
 	};
 
 	eucc.ContactMEP.prototype.onRepresentativesLoaded = function( representatives ) {
@@ -135,20 +111,18 @@
 		this.selectedRepresentative = representative;
 
 		this.makeContactPanel();
-		this.makeCallPanel();
 	};
 
-	eucc.ContactMEP.prototype.onCopyEmail = function( success ) {
-		this.contactWidget.addCopyToClipboardMessage( success );
-		this.insertTracking();
-		this.submitNewsletterSubscription();
-	};
-
-	eucc.ContactMEP.prototype.onGenerateEmail = function() {
+	eucc.ContactMEP.prototype.onContactActionDone = function() {
 		this.showThankYou();
-		this.insertTracking();
+		// At this point we dont know if user has gotten here using
+		// email or one of the other options. There is no guarantee
+		// that email will be entered or correct
 		this.submitNewsletterSubscription();
-		window.location.href = this.contactWidget.getMailtoLink();
+	};
+
+	eucc.ContactMEP.prototype.onDialogOpened = function() {
+		this.insertTracking();
 	};
 
 	eucc.ContactMEP.prototype.showThankYou = function() {
@@ -159,8 +133,7 @@
 
 	eucc.ContactMEP.prototype.submitNewsletterSubscription = function() {
 		var userInfo = this.contactWidget.getUserInfo();
-		if( !userInfo.newsletterSignup ) {
-			// Users wishes not to be subscribed
+		if( !userInfo.newsletterSignup || userInfo.emailAddress === '' ) {
 			return;
 		}
 

@@ -2,11 +2,11 @@
 	.eeuc-process-layout{
 		width: 100%;
 		.eucc-selection-layout {
-			margin-top: 25px;
 			margin-bottom: 25px;
 			.oo-ui-fieldLayout {
 				width: 260px;
 				margin-right: 1.5em;
+				margin-top: 25px;
 				.oo-ui-fieldLayout-header label {
 					font-weight: bold;
 				}
@@ -26,6 +26,18 @@
 				}
 			}
 			.eucc-contact-widget {
+				.eucc-contact-top-alternatives {
+					margin: 20px;
+					margin-bottom: 10px;
+					span.oo-ui-buttonWidget {
+						margin: 0;
+						padding-bottom: 2px;
+						a {
+							padding: 0;
+							vertical-align: top;
+						}
+					}
+				}
 				.eucc-contact-text-container-outer {
 					background-color: white;
 					overflow: auto;
@@ -113,15 +125,23 @@
 						}
 					}
 				}
-				.oo-ui-buttonElement-frameless:focus {
-					box-shadow: none;
-					border: none;
-					-webkit-box-shadow: none;
+				.oo-ui-buttonElement-frameless {
+					&:focus {
+						box-shadow: none;
+						border: none;
+						-webkit-box-shadow: none;
+					}
 				}
-				.eucc-copy-to-clipboard-status {
-					margin-left: 10px;
-					font-size: 0.8em;
-					color: grey;
+				.oo-ui-horizontalLayout {
+					.oo-ui-buttonElement-frameless {
+						&:before {
+							content: "\02022";
+								vertical-align: middle;
+								margin-right: 10px;
+								margin-left: 10px;
+								color: #5f5f5f;
+						}
+					}
 				}
 			}
 		}
@@ -130,30 +150,6 @@
 			.oo-ui-fieldLayout-body {
 				.oo-ui-fieldLayout-header label {
 					font-weight: bold;
-				}
-			}
-			.eucc-call-widget {
-				margin: 20px;
-				text-align: justify;
-				label {
-					display: block;
-					margin-top: 20px;
-					&.eucc-call-script-label {
-						font-weight: bold;
-					}
-				}
-				#eucc-call-script {
-					margin-top: 20px;
-					ol {
-						li {
-							margin-bottom: 1em;
-							ul {
-								li {
-									list-style-type: disc;
-								}
-							}
-						}
-					}
 				}
 			}
 		}
@@ -223,6 +219,125 @@
 	}
 }
 
+/*Dialogs*/
+.eucc-mail-dialog {
+	.oo-ui-processDialog-actions-other {
+		.oo-ui-buttonElement-frameless {
+			&:focus {
+				box-shadow: none;
+				border: none;
+				-webkit-box-shadow: none;
+			}
+		}
+	}
+	.oo-ui-window-body {
+		overflow: hidden;
+		bottom: 50px;
+	}
+	.oo-ui-panelLayout {
+		padding-bottom: 10px;
+		overflow: none;
+		.eucc-mail-dialog-top-label {
+			font-weight: bold;
+			display: block;
+		}
+		.eucc-mail-dialog-rep-info {
+			margin-bottom: 10px;
+			span {
+				color: #215db7;
+				font-weight: bold;
+			}
+		}
+		.oo-ui-textInputWidget {
+			margin-bottom: 30px;
+		}
+		textarea[readonly] {
+			resize: none;
+			background-color: #fff;
+		}
+		.eucc-copy-to-clipboard-status {
+			margin-bottom: 10px;
+			font-size: 0.8em;
+			color: grey;
+		}
+	}
+}
+.eucc-call-dialog {
+	.oo-ui-window-body {
+		overflow: auto;
+	}
+	.oo-ui-panelLayout {
+		margin: 20px;
+	}
+	.eucc-call-dialog-contact-info {
+		display: inline-block;
+		margin-bottom: 20px;
+		width: 240px;
+		vertical-align: top;
+		margin-right: 10px;
+		label {
+			font-size: 0.9em;
+			margin-top: 20px;
+			&.eucc-call-dialog-contact-info-name {
+				font-size: 1em;
+				display: block;
+				font-weight: bold;
+				margin-top: 0;
+				margin-bottom: 10px;
+			}
+		}
+		.eucc-call-dialog-phone-pill {
+			padding: 10px;
+			background-color: #cddaf9;
+			width: auto;
+			height: 25px;
+			margin-top: 5px;
+			border-radius: 30px;
+			display: inline-block;
+			span.oo-ui-iconWidget {
+				margin-left: 10px;
+			}
+			label {
+				margin-top: 0;
+				margin-right: 15px;
+				color: #36c;
+				font-weight: bold;
+			}
+		}
+	}
+	.eucc-call-dialog-call-script {
+		display: inline-block;
+		max-width: 570px;
+		margin-bottom: 30px;
+		padding-left: 20px;
+		border-left: 1px solid #c8c8c8;
+		vertical-align: top;
+		label {
+			font-weight: bold;
+		}
+	}
+}
+
+.eucc-twitter-dialog {
+	.oo-ui-window-body {
+		overflow: hidden;
+	}
+	textarea {
+		resize: none;
+		margin-bottom: 15px;
+	}
+	.oo-ui-buttonWidget {
+		margin-bottom: 25px;
+	}
+}
+
 #eucc-call-script {
 	display: none;
+	ol {
+		margin: 0.3em 0 0 1.2em;
+		ul {
+			list-style-type: disc;
+			margin-left: 17px;
+		}
+	}
 }

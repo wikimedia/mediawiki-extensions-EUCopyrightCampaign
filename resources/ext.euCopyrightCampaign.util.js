@@ -27,7 +27,9 @@
 	}
 
 	window.eucc = {
-		ui: {},
+		ui: {
+			dialog: {}
+		},
 		storeAction: _storeAction
 	};
 

@@ -7,7 +7,8 @@
 			"membershipInDelegations": "D-BY\r\nD-IL\r\nDARP\r\nD-US\r\nDCAS",
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45276",
-			"strasbourgPhone": "+33(0)3 88 1 75276"
+			"strasbourgPhone": "+33(0)3 88 1 75276",
+			"twitter": "Iveta"
 		},
 		{
 			"firstName": "Sandra",
@@ -16,7 +17,8 @@
 			"membershipInDelegations": "DASE",
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45204",
-			"strasbourgPhone": "+33(0)3 88 1 75204"
+			"strasbourgPhone": "+33(0)3 88 1 75204",
+			"twitter": "Sandra"
 		},
 		{
 			"firstName": "Kri\u0161j\u0101nis",
@@ -25,7 +27,8 @@
 			"membershipInDelegations": "D-US",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45205",
-			"strasbourgPhone": "+33(0)3 88 1 75205"
+			"strasbourgPhone": "+33(0)3 88 1 75205",
+			"twitter": "Kri\u0161j\u0101nis"
 		},
 		{
 			"firstName": "Andrejs",
@@ -34,7 +37,8 @@
 			"membershipInDelegations": "D-BY",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45373",
-			"strasbourgPhone": "+33(0)3 88 1 75373"
+			"strasbourgPhone": "+33(0)3 88 1 75373",
+			"twitter": "Andrejs"
 		},
 		{
 			"firstName": "Ana",
@@ -43,7 +47,8 @@
 			"membershipInDelegations": "D-US",
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45628",
-			"strasbourgPhone": "+33(0)3 88 1 75628"
+			"strasbourgPhone": "+33(0)3 88 1 75628",
+			"twitter": "Ana"
 		},
 		{
 			"firstName": "Stanis\u0142aw",
@@ -52,7 +57,8 @@
 			"membershipInDelegations": "",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45653",
-			"strasbourgPhone": "+33(0)3 88 1 75653"
+			"strasbourgPhone": "+33(0)3 88 1 75653",
+			"twitter": "Stanis\u0142aw"
 		},
 		{
 			"firstName": "Vladimir",
@@ -61,7 +67,8 @@
 			"membershipInDelegations": "D-RU",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45145",
-			"strasbourgPhone": "+33(0)3 88 1 75145"
+			"strasbourgPhone": "+33(0)3 88 1 75145",
+			"twitter": "Vladimir"
 		},
 		{
 			"firstName": "Janusz",
@@ -70,7 +77,8 @@
 			"membershipInDelegations": "D-US",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45426",
-			"strasbourgPhone": "+33(0)3 88 1 75426"
+			"strasbourgPhone": "+33(0)3 88 1 75426",
+			"twitter": "Janusz"
 		}
 	]
 }

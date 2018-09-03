@@ -13,10 +13,9 @@
 	"eucc-country-picker-layout-label": "1. Let's find your representative",
 	"eucc-country-picker-placeholder": "Select your country",
 	"eucc-representative-picker-layout-label": "Select your representative",
-	"eucc-contact-layout-label": "2. Email your representative",
-	"eucc-call-layout-label": "3. Call your Representative",
+	"eucc-contact-layout-label": "2. Conatact your representative",
 	"eucc-contact-button-copy-mail-label": "Copy email",
-	"eucc-contact-button-send-mail-label": "Generate email",
+	"eucc-contact-button-send-mail-label": "Send email",
 	"eucc-email-greeting": "Dear $1,",
 	"eucc-email-user-info": "My name is $1 $2 and I live in $3.",
 
@@ -59,10 +58,9 @@
 	"eucc-option-exception-for-text-and-data-mining-text-v2": "Text and data mining should not be limited to certain institutions or for certain purposes. Anyone should be able to use the data they have lawful access to to gain new insights about the world around us.",
 	"eucc-option-exception-for-text-and-data-mining-text-v3": "The EU will miss an opportunity to empower its citizens to participate in science and research if it limits text and data mining only to certain institutions and for certain purposes. Everyone should have the ability to conduct research and contribute their insights to the sum of all knowledge.",
 
-	"eucc-call-intro": "A phone call is one of the most effective ways to make your voice heard. We have provided your MEP’s information and a short script below. Remember, with the upcoming votes, your representative may be receiving a lot of calls so if they do not pick up, don’t be discouraged from leaving a message or calling again.",
-	"eucc-call-representative-label": "Contact information for $1",
-	"eucc-call-representative-phone-brussels": "Brussels: $1",
-	"eucc-call-represetntative-phone-strasbourg": "Strasbourg: $1",
+
+	"eucc-call-representative-phone-brussels": "Brussels",
+	"eucc-call-representative-phone-strasbourg": "Strasbourg",
 	"eucc-call-script-label": "Call script",
 	"eucc-call-script-text": "# Introduce yourself and say where you live\n# Talk about how you use the internet everyday. For example, maybe you upload vacation photos, you write a blog, you share memes or news articles, or you search for information on or contribute to Wikipedia.\n# Tell them you are calling to talk about the EU Copyright Directive\n# A few things you can mention (feel free to pick 1-2 you are most passionate about):\n#* You oppose any type of pre-filtering of content. This means you don’t want your content scanned by an algorithm before it is posted.\n#* You support the public domain and want to see more public domain works available online.\n#* You want freedom of panorama so everyone can share photographs of public sculptures and architecture without restrictions.\n#* You want the law to match how you share things online, including videos, memes, news articles by including a user-generated content exception.\n#* You want everyone to be able to participate in science and research through text and data mining. \n# Thank them.",
 	"eucc-thank-you-header": "Thank you!",
@@ -73,6 +71,20 @@
 	"eucc-copy-to-clipboard-success": "Email copied to clipboard",
 	"eucc-copy-to-clipboard-fail": "Email could not be copied to clipboard",
 	"eucc-restart-label": "To contact another representative from your country, please click ##RELOAD_LINK##",
-	"eucc-learn-more": "To learn more about the Wikimedia movement, our stance on EU Copyright, and how else you can help, see our ##INFO PAGE##."
-	
+	"eucc-learn-more": "To learn more about the Wikimedia movement, our stance on EU Copyright, and how else you can help, see our ##INFO PAGE##.",
+	"eucc-contact-button-call-short-label": "Phone",
+	"eucc-contact-button-tweet-short-label": "Tweet",
+	"eucc-contact-button-call-label": "Call your rep",
+	"eucc-contact-button-tweet-label": "Tweet $1",
+	"eucc-contact-top-alternatives-text": "Please fill out the form and generate the email to send to your representative. You can also $1 or $2 your representative",
+	"eucc-contact-button-generate-mail-label": "Generate Email",
+	"eucc-dialog-mark-as-done-label": "Mark as done",
+	"eucc-mail-dialog-copy-text-label": "Copy text",
+	"eucc-mail-dialog-send-mail-label": "Send email",
+	"eucc-mail-dialog-title": "Email your representative",
+	"eucc-mail-dialog-top-label": "Your email is ready to be sent",
+	"eucc-mail-dialog-target-rep": "$1 $2",
+	"eucc-call-dialog-title": "Call your representative",
+	"eucc-tweet-at-rep-default-text": "I write today to support a copyright framework for Europe that respects everyone's right to communicate effectively online as well as to collect, create, and share knowledge with the world.",
+	"eucc-twitter-dialog-title": "Tweet @representative"
 }

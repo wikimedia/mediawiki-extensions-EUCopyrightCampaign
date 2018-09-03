@@ -7,7 +7,8 @@
 			"membershipInDelegations": "",
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45932",
-			"strasbourgPhone": "+33(0)3 88 1 75932"
+			"strasbourgPhone": "+33(0)3 88 1 75932",
+			"twitter": "Biljana"
 		},
 		{
 			"firstName": "Ivan",
@@ -16,7 +17,8 @@
 			"membershipInDelegations": "",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45639",
-			"strasbourgPhone": "+33(0)3 88 1 75639"
+			"strasbourgPhone": "+33(0)3 88 1 75639",
+			"twitter": "Ivan"
 		},
 		{
 			"firstName": "Ivana",
@@ -25,7 +27,8 @@
 			"membershipInDelegations": "",
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45734",
-			"strasbourgPhone": "+33(0)3 88 1 75734"
+			"strasbourgPhone": "+33(0)3 88 1 75734",
+			"twitter": "Ivana"
 		},
 		{
 			"firstName": "Morten Helveg",
@@ -34,7 +37,8 @@
 			"membershipInDelegations": "D-JP",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45683",
-			"strasbourgPhone": "+33(0)3 88 1 75683"
+			"strasbourgPhone": "+33(0)3 88 1 75683",
+			"twitter": "Morten Helveg"
 		},
 		{
 			"firstName": "Pina",
@@ -43,7 +47,8 @@
 			"membershipInDelegations": "",
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45229",
-			"strasbourgPhone": "+33(0)3 88 1 75229"
+			"strasbourgPhone": "+33(0)3 88 1 75229",
+			"twitter": "Pina"
 		},
 		{
 			"firstName": "Emil",
@@ -52,7 +57,8 @@
 			"membershipInDelegations": "DCAS",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45189",
-			"strasbourgPhone": "+33(0)3 88 1 75189"
+			"strasbourgPhone": "+33(0)3 88 1 75189",
+			"twitter": "Emil"
 		},
 		{
 			"firstName": "Birgit",
@@ -61,7 +67,8 @@
 			"membershipInDelegations": "DMAS",
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45559",
-			"strasbourgPhone": "+33(0)3 88 1 75559"
+			"strasbourgPhone": "+33(0)3 88 1 75559",
+			"twitter": "Birgit"
 		},
 		{
 			"firstName": "Theodor Dumitru",
@@ -70,7 +77,8 @@
 			"membershipInDelegations": "",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45670",
-			"strasbourgPhone": "+33(0)3 88 1 75670"
+			"strasbourgPhone": "+33(0)3 88 1 75670",
+			"twitter": "Theodor Dumitru"
 		},
 		{
 			"firstName": "Patrizia",
@@ -79,7 +87,8 @@
 			"membershipInDelegations": "D-BY",
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45127",
-			"strasbourgPhone": "+33(0)3 88 1 75127"
+			"strasbourgPhone": "+33(0)3 88 1 75127",
+			"twitter": "Patrizia"
 		},
 		{
 			"firstName": "Ivica",
@@ -88,7 +97,8 @@
 			"membershipInDelegations": "",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45955",
-			"strasbourgPhone": "+33(0)3 88 1 75955"
+			"strasbourgPhone": "+33(0)3 88 1 75955",
+			"twitter": "Ivica"
 		},
 		{
 			"firstName": "Stanis\u0142aw",
@@ -97,7 +107,8 @@
 			"membershipInDelegations": "",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45603",
-			"strasbourgPhone": "+33(0)3 88 1 75603"
+			"strasbourgPhone": "+33(0)3 88 1 75603",
+			"twitter": "Stanis\u0142aw"
 		}
 	]
 }

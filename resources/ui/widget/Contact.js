@@ -9,6 +9,9 @@
 		this.compiledText = '';
 		this.dirty = false;
 
+		this.windowManager = OO.ui.getWindowManager();
+
+		this.makeTopAlternatives();
 		this.makeTextComposition();
 		this.makeButtons();
 
@@ -33,36 +36,79 @@
 		return countryName;
 	};
 
+	eucc.ui.ContactWidget.prototype.makeTopAlternatives = function() {
+		this.$topAlternativesContainer = $( '<div>' ).addClass( 'eucc-contact-top-alternatives' );
+		var callButton = new OO.ui.ButtonWidget( {
+			framed: false,
+			label: mw.message( 'eucc-contact-button-call-short-label' ).text(),
+			flags: [
+				'progressive'
+			]
+		} );
+		callButton.on( 'click', this.openCallDialog.bind( this ) );
+
+		var tweetButton = new OO.ui.ButtonWidget( {
+			framed: false,
+			label: mw.message( 'eucc-contact-button-tweet-short-label' ).text(),
+			flags: [
+				'progressive'
+			]
+		} );
+		tweetButton.on( 'click', this.openTweetDialog.bind( this ) );
+
+		var alternativeText = mw.message( 'eucc-contact-top-alternatives-text' ).escaped();
+
+		alternativeText = alternativeText.replace( '$1', '<a id="top-alternative-call"></a>' );
+		alternativeText = alternativeText.replace( '$2', '<a id="top-alternative-tweet"></a>' );
+
+		this.$topAlternativesContainer.append( $( '<span>' ).html( alternativeText ) );
+
+		this.$topAlternativesContainer.find( 'a#top-alternative-call' ).replaceWith( callButton.$element );
+		this.$topAlternativesContainer.find( 'a#top-alternative-tweet' ).replaceWith( tweetButton.$element );
+
+		this.$element.append( this.$topAlternativesContainer );
+	}
+
 	eucc.ui.ContactWidget.prototype.makeButtons = function() {
-		this.sendMailButton = new OO.ui.ButtonWidget( {
-			label: mw.message( 'eucc-contact-button-send-mail-label' ).text(),
+		var generateMailButton = new OO.ui.ButtonWidget( {
+			label: mw.message( 'eucc-contact-button-generate-mail-label' ).text(),
 			flags: [
 				"primary",
 				"progressive"
 			]
 		} );
-		this.sendMailButton.on( 'click', function() {
+		generateMailButton.on( 'click', function() {
 			this.validate().done( function() {
-				this.emit( 'generateEmail' );
+				this.openMailDialog();
 			}.bind( this ) );
 		}.bind( this ) );
-		this.copyMailButton = new OO.ui.ButtonWidget( {
-			label: mw.message( 'eucc-contact-button-copy-mail-label' ).text(),
+
+		var tweetButton = new OO.ui.ButtonWidget( {
+			label: mw.message(
+					'eucc-contact-button-tweet-label',
+					this.representative.twitter
+				).text(),
 			framed: false,
 			flags: [
 				"progressive"
 			]
 		} );
-		this.copyMailButton.$element.on( 'click', function() {
-			this.validate().done( function() {
-				this.copyToClipboard();
-			}.bind( this ) );
-		}.bind( this ) );
+		tweetButton.on( 'click', this.openTweetDialog.bind( this ) );
+
+		var callButton = new OO.ui.ButtonWidget( {
+			label: mw.message( 'eucc-contact-button-call-label' ).text(),
+			framed: false,
+			flags: [
+				"progressive"
+			]
+		} );
+		callButton.on( 'click', this.openCallDialog.bind( this ) );
 
 		this.buttonsLayout = new OO.ui.HorizontalLayout( {
 			items: [
-				this.sendMailButton,
-				this.copyMailButton
+				generateMailButton,
+				tweetButton,
+				callButton
 			]
 		} );
 	};
@@ -330,15 +376,6 @@
 		this.compiledText += text + "\n\n";
 	};
 
-	eucc.ui.ContactWidget.prototype.getMailtoLink = function() {
-		var link = "mailto:" + this.representative.email;
-		// Do we want to pre-fill the subject or to let user fill it?
-		//link += "?subject=" + this.emailSubject;
-		link += "?body=" + this.getTextForEmailClient();
-
-		return link;
-	};
-
 	eucc.ui.ContactWidget.prototype.getTextForEmailClient = function() {
 		// In mailto: only allowed link break character is "%0D%0A"
 		// https://tools.ietf.org/html/rfc2368#page-3
@@ -346,73 +383,61 @@
 		return emailText.replace( new RegExp( "\n", 'g' ), "%0D%0A" );
 	};
 
-	eucc.ui.ContactWidget.prototype.copyToClipboard = function() {
-		var emailText = this.getCompiledText();
-
-		if( !navigator.clipboard ) {
-			this.emit( 'copyEmail', this.copyToClipboardFallback( emailText ) );
-			return;
-		}
-
-		// This method works without appending any elements to the DOM,
-		// but is supported on only few browsers, and only if content is
-		// served over https
-		var writePromise = navigator.clipboard.writeText( emailText );
-		writePromise.then( function() {
-			this.emit( 'copyEmail', true );
-		}.bind( this ), function() {
-			this.emit( 'copyEmail', this.copyToClipboardFallback( emailText ) );
-		}.bind( this ) );
-	};
-
-	/**
-	 * Fail-safe way to do it. Supported on almost all browsers
-	 *
-	 * @param string text Text of the email
-	 * @returns boolean
-	 */
-	eucc.ui.ContactWidget.prototype.copyToClipboardFallback = function( text ) {
-		var $dummyTextArea = $( '<textarea>' ).val( text );
-		$dummyTextArea.insertAfter( '.eucc-content-layout' );
-		$dummyTextArea.focus();
-		$dummyTextArea.select();
-
-		var success = false;
-		try {
-			success = document.execCommand( 'copy' );
-		} catch (err) {
-			//We must catch any errors, so that text area always gets removed
-		}
-
-		$dummyTextArea.remove();
-
-		return success;
-	};
-
-	eucc.ui.ContactWidget.prototype.addCopyToClipboardMessage = function( success ) {
-		var message;
-		if( success ) {
-			message = mw.message( 'eucc-copy-to-clipboard-success' ).escaped();
-		} else {
-			message = mw.message( 'eucc-copy-to-clipboard-fail' ).escaped();
-		}
-
-		if( this.copyToClipboardStatus === undefined ) {
-			this.copyToClipboardStatus = new OO.ui.LabelWidget();
-			this.copyToClipboardStatus.$element.addClass( 'eucc-copy-to-clipboard-status' );
-			this.buttonsLayout.$element.append( this.copyToClipboardStatus.$element );
-		}
-
-		this.copyToClipboardStatus.setLabel( message );
-		this.copyToClipboardStatus.$element.show();
-		setTimeout( function() {
-			this.copyToClipboardStatus.$element.fadeOut( 500 );
-		}.bind( this ), 2000 );
-	};
-
 	eucc.ui.ContactWidget.prototype.pickVariation = function( baseMsgKey, numberOfVariations ) {
 		var variationNumber = Math.floor( Math.random() * ( numberOfVariations ) ) + 1;
 		return baseMsgKey + '-v' + variationNumber;
+	};
+
+	eucc.ui.ContactWidget.prototype.openCallDialog = function() {
+		if( !this.callDialog ) {
+			this.callDialog = new eucc.ui.dialog.Call( {
+				representative: this.representative,
+				callScriptContainer: $( '#eucc-call-script' ),
+				size: 'larger'
+			} );
+			this.windowManager.addWindows( [ this.callDialog ] );
+		}
+		this.windowManager.openWindow( this.callDialog )
+			.closed.then( this.onDialogClose.bind( this ) );
+		this.emit( 'dialogOpened' );
+	};
+
+	eucc.ui.ContactWidget.prototype.openTweetDialog = function() {
+		if( !this.twitterDialog ) {
+			this.twitterDialog = new eucc.ui.dialog.Twitter( {
+				representative: this.representative,
+				defaultText: mw.message( 'eucc-tweet-at-rep-default-text' ).text(),
+				size: 'large'
+			} );
+			this.windowManager.addWindows( [ this.twitterDialog ] );
+		}
+		this.windowManager.openWindow( this.twitterDialog )
+			.closed.then( this.onDialogClose.bind( this ) );
+		this.emit( 'dialogOpened' );
+	};
+
+	eucc.ui.ContactWidget.prototype.openMailDialog = function() {
+		if( !this.mailDialog ) {
+			this.mailDialog = new eucc.ui.dialog.Mail( {
+				representative: this.representative,
+				emailText: this.getCompiledText(),
+				emailTextForEmailClient: this.getTextForEmailClient(),
+				size: 'large'
+			} );
+			this.windowManager.addWindows( [ this.mailDialog ] );
+		}
+		this.windowManager.openWindow( this.mailDialog )
+			.closed.then( this.onDialogClose.bind( this ) );
+		this.emit( 'dialogOpened' );
+	};
+
+	eucc.ui.ContactWidget.prototype.onDialogClose = function( data ) {
+		if( data === undefined ) {
+			return;
+		}
+		if( data.action === 'markAsDone' ) {
+			this.emit( 'actionDone' );
+		}
 	}
 
 } ) ( mediaWiki, jQuery );

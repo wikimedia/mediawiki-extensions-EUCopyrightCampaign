@@ -7,7 +7,8 @@
 			"membershipInDelegations": "DPAL",
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45327",
-			"strasbourgPhone": "+33(0)3 88 1 75327"
+			"strasbourgPhone": "+33(0)3 88 1 75327",
+			"twitter": "Margrete"
 		},
 		{
 			"firstName": "Bendt",
@@ -16,7 +17,8 @@
 			"membershipInDelegations": "D-CN",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45125",
-			"strasbourgPhone": "+33(0)3 88 1 75125"
+			"strasbourgPhone": "+33(0)3 88 1 75125",
+			"twitter": "Bendt"
 		},
 		{
 			"firstName": "Ole",
@@ -25,7 +27,8 @@
 			"membershipInDelegations": "",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45464",
-			"strasbourgPhone": "+33(0)3 88 1 75464"
+			"strasbourgPhone": "+33(0)3 88 1 75464",
+			"twitter": "Ole"
 		},
 		{
 			"firstName": "J\u00f8rn",
@@ -34,7 +37,8 @@
 			"membershipInDelegations": "DEEA\r\nDPAL",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45721",
-			"strasbourgPhone": "+33(0)3 88 1 75721"
+			"strasbourgPhone": "+33(0)3 88 1 75721",
+			"twitter": "J\u00f8rn"
 		},
 		{
 			"firstName": "Rina Ronja",
@@ -43,7 +47,8 @@
 			"membershipInDelegations": "DEEA",
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45152",
-			"strasbourgPhone": "+33(0)3 88 1 75152"
+			"strasbourgPhone": "+33(0)3 88 1 75152",
+			"twitter": "Rina Ronja"
 		},
 		{
 			"firstName": "Rikke-Louise",
@@ -52,7 +57,8 @@
 			"membershipInDelegations": "",
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45821",
-			"strasbourgPhone": "+33(0)3 88 1 75821"
+			"strasbourgPhone": "+33(0)3 88 1 75821",
+			"twitter": "Rikke-Louise"
 		},
 		{
 			"firstName": "Jeppe",
@@ -61,7 +67,8 @@
 			"membershipInDelegations": "D-US",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45463",
-			"strasbourgPhone": "+33(0)3 88 1 75463"
+			"strasbourgPhone": "+33(0)3 88 1 75463",
+			"twitter": "Jeppe"
 		},
 		{
 			"firstName": "Morten",
@@ -70,7 +77,8 @@
 			"membershipInDelegations": "DASE",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45766",
-			"strasbourgPhone": "+33(0)3 88 1 75766"
+			"strasbourgPhone": "+33(0)3 88 1 75766",
+			"twitter": "Morten"
 		},
 		{
 			"firstName": "Morten",
@@ -79,7 +87,8 @@
 			"membershipInDelegations": "",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45738",
-			"strasbourgPhone": "+33(0)3 88 1 75738"
+			"strasbourgPhone": "+33(0)3 88 1 75738",
+			"twitter": "Morten"
 		},
 		{
 			"firstName": "Alojz",
@@ -88,7 +97,8 @@
 			"membershipInDelegations": "",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45638",
-			"strasbourgPhone": "+33(0)3 88 1 75638"
+			"strasbourgPhone": "+33(0)3 88 1 75638",
+			"twitter": "Alojz"
 		},
 		{
 			"firstName": "Ulrike",
@@ -97,7 +107,8 @@
 			"membershipInDelegations": "DCAM",
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45502",
-			"strasbourgPhone": "+33(0)3 88 1 75502"
+			"strasbourgPhone": "+33(0)3 88 1 75502",
+			"twitter": "Ulrike"
 		},
 		{
 			"firstName": "Marietje",
@@ -106,7 +117,8 @@
 			"membershipInDelegations": "D-US",
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45617",
-			"strasbourgPhone": "+33(0)3 88 1 75617"
+			"strasbourgPhone": "+33(0)3 88 1 75617",
+			"twitter": "Marietje"
 		},
 		{
 			"firstName": "Daniele",
@@ -115,7 +127,8 @@
 			"membershipInDelegations": "DSEE",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45652",
-			"strasbourgPhone": "+33(0)3 88 1 75652"
+			"strasbourgPhone": "+33(0)3 88 1 75652",
+			"twitter": "Daniele"
 		}
 	]
 }

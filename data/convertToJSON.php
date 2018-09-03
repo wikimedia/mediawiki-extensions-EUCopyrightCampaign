@@ -14,7 +14,9 @@ $csvMap = [
 	'country' => 12,
 	'gender' => 2,
 	'brusselsPhone' => 14,
-	'strasbourgPhone' => 15
+	'strasbourgPhone' => 15,
+	// Dummy - do not have twitter name yet
+	'twitter' => 1
 ];
 
 $handle = fopen( $csvFile, 'r' );
