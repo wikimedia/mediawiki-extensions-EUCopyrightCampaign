@@ -8,7 +8,7 @@
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45327",
 			"strasbourgPhone": "+33(0)3 88 1 75327",
-			"twitter": "Margrete"
+			"twitter": "@MargreteAuken"
 		},
 		{
 			"firstName": "Bendt",
@@ -18,7 +18,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45125",
 			"strasbourgPhone": "+33(0)3 88 1 75125",
-			"twitter": "Bendt"
+			"twitter": "@BendtEU"
 		},
 		{
 			"firstName": "Ole",
@@ -28,17 +28,17 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45464",
 			"strasbourgPhone": "+33(0)3 88 1 75464",
-			"twitter": "Ole"
+			"twitter": "@OleEU"
 		},
 		{
 			"firstName": "J\u00f8rn",
 			"lastName": "Dohrmann",
 			"email": "jorn.dohrmann@europarl.europa.eu",
-			"membershipInDelegations": "DEEA\r\nDPAL",
+			"membershipInDelegations": "DEEA\nDPAL",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45721",
 			"strasbourgPhone": "+33(0)3 88 1 75721",
-			"twitter": "J\u00f8rn"
+			"twitter": ""
 		},
 		{
 			"firstName": "Rina Ronja",
@@ -48,7 +48,7 @@
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45152",
 			"strasbourgPhone": "+33(0)3 88 1 75152",
-			"twitter": "Rina Ronja"
+			"twitter": "@rinakari"
 		},
 		{
 			"firstName": "Rikke-Louise",
@@ -58,7 +58,7 @@
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45821",
 			"strasbourgPhone": "+33(0)3 88 1 75821",
-			"twitter": "Rikke-Louise"
+			"twitter": ""
 		},
 		{
 			"firstName": "Jeppe",
@@ -68,7 +68,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45463",
 			"strasbourgPhone": "+33(0)3 88 1 75463",
-			"twitter": "Jeppe"
+			"twitter": "@JeppeKofod"
 		},
 		{
 			"firstName": "Morten",
@@ -78,7 +78,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45766",
 			"strasbourgPhone": "+33(0)3 88 1 75766",
-			"twitter": "Morten"
+			"twitter": "@loekkegaard_mep"
 		},
 		{
 			"firstName": "Morten",
@@ -88,47 +88,47 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45738",
 			"strasbourgPhone": "+33(0)3 88 1 75738",
-			"twitter": "Morten"
+			"twitter": ""
 		},
 		{
-			"firstName": "Alojz",
-			"lastName": "Peterle",
-			"email": "alojz.peterle@europarl.europa.eu",
+			"firstName": "Morten Helveg",
+			"lastName": "Petersen",
+			"email": "mortenhelveg.petersen@europarl.europa.eu",
+			"membershipInDelegations": "D-JP",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45683",
+			"strasbourgPhone": "+33(0)3 88 1 75683",
+			"twitter": "@mortenhelveg"
+		},
+		{
+			"firstName": "Jens",
+			"lastName": "Rohde",
+			"email": "jens.rohde@europarl.europa.eu",
 			"membershipInDelegations": "",
 			"gender": "M",
-			"brusselsPhone": "+32(0)2 28 45638",
-			"strasbourgPhone": "+33(0)3 88 1 75638",
-			"twitter": "Alojz"
+			"brusselsPhone": "+32(0)2 28 45569",
+			"strasbourgPhone": "+33(0)3 88 1 75569",
+			"twitter": "@rohde_jens"
 		},
 		{
-			"firstName": "Ulrike",
-			"lastName": "Rodust",
-			"email": "ulrike.rodust@europarl.europa.eu",
-			"membershipInDelegations": "DCAM",
+			"firstName": "Christel",
+			"lastName": "Schaldemose",
+			"email": "christel.schaldemose@europarl.europa.eu",
+			"membershipInDelegations": "D-JP",
 			"gender": "F",
-			"brusselsPhone": "+32(0)2 28 45502",
-			"strasbourgPhone": "+33(0)3 88 1 75502",
-			"twitter": "Ulrike"
+			"brusselsPhone": "+32(0)2 28 45491",
+			"strasbourgPhone": "+33(0)3 88 1 75491",
+			"twitter": "@SchaldemoseMEP"
 		},
 		{
-			"firstName": "Marietje",
-			"lastName": "Schaake",
-			"email": "marietje.schaake@europarl.europa.eu",
-			"membershipInDelegations": "D-US",
-			"gender": "F",
-			"brusselsPhone": "+32(0)2 28 45617",
-			"strasbourgPhone": "+33(0)3 88 1 75617",
-			"twitter": "Marietje"
-		},
-		{
-			"firstName": "Daniele",
-			"lastName": "Viotti",
-			"email": "daniele.viotti@europarl.europa.eu",
-			"membershipInDelegations": "DSEE",
+			"firstName": "Anders Primdahl",
+			"lastName": "Vistisen",
+			"email": "anders.vistisen@europarl.europa.eu",
+			"membershipInDelegations": "",
 			"gender": "M",
-			"brusselsPhone": "+32(0)2 28 45652",
-			"strasbourgPhone": "+33(0)3 88 1 75652",
-			"twitter": "Daniele"
+			"brusselsPhone": "+32(0)2 28 45859",
+			"strasbourgPhone": "+33(0)3 88 1 75859",
+			"twitter": ""
 		}
 	]
 }

@@ -115,7 +115,8 @@
 				"eucc-mail-dialog-target-rep",
 				"eucc-call-dialog-title",
 				"eucc-tweet-at-rep-default-text",
-				"eucc-twitter-dialog-title"
+				"eucc-twitter-dialog-title",
+				"eucc-contact-top-alternatives-only-phone-text"
 			],
 			"dependencies": [
 				"mediawiki.api",

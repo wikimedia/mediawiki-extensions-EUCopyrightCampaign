@@ -15,15 +15,14 @@ $csvMap = [
 	'gender' => 2,
 	'brusselsPhone' => 14,
 	'strasbourgPhone' => 15,
-	// Dummy - do not have twitter name yet
-	'twitter' => 1
+	'twitter' => 16
 ];
 
 $handle = fopen( $csvFile, 'r' );
 $rawContent = [];
 
 do {
-	$row = fgetcsv( $handle, 0, ',' );
+	$row = fgetcsv( $handle, 0, ';' );
 	if ( is_array( $row ) ) {
 		$rawContent[] = $row;
 	}
@@ -40,6 +39,10 @@ foreach ( $rawContent as $row ) {
 		if ( $field === 'country' && !empty( $value ) ) {
 			$country = $value;
 			continue;
+		}
+		if ( $field === 'twitter' ) {
+			$value = wfTwitterUsernameFromURL( $value );
+			error_log( $value );
 		}
 		$representative[ $field ] = $value;
 	}
@@ -59,6 +62,27 @@ foreach ( $dataByCountry as $country => $meps ) {
 	];
 
 	$jsonString = json_encode( $data, JSON_PRETTY_PRINT );
+	if ( $jsonString === false ) {
+		error_log( var_export( $meps, 1 ) );
+	}
 	$jsonString = str_replace( '    ', "\t", $jsonString );
 	file_put_contents( "$destDir/$country.json", $jsonString );
+}
+
+/**
+ * Extracts user name from the full twitter user URL
+ *
+ * @param string $url
+ * @return string
+ */
+function wfTwitterUsernameFromURL( $url ) {
+	if ( $url === '' ) {
+		return '';
+	}
+	if ( substr( $url, -1 ) === '/' ) {
+		$url = substr( $url, 0, -1 );
+	}
+
+	$bits = explode( '/', $url );
+	return '@' . array_pop( $bits );
 }

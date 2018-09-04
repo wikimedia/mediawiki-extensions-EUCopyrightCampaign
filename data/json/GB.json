@@ -8,7 +8,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45404",
 			"strasbourgPhone": "+33(0)3 88 1 75404",
-			"twitter": "John Stuart"
+			"twitter": ""
 		},
 		{
 			"firstName": "Tim",
@@ -18,7 +18,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45109",
 			"strasbourgPhone": "+33(0)3 88 1 75109",
-			"twitter": "Tim"
+			"twitter": "@Tim_Aker"
 		},
 		{
 			"firstName": "Lucy",
@@ -28,7 +28,7 @@
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45496",
 			"strasbourgPhone": "+33(0)3 88 1 75496",
-			"twitter": "Lucy"
+			"twitter": "@LucyAndersonMEP"
 		},
 		{
 			"firstName": "Martina",
@@ -38,7 +38,7 @@
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45222",
 			"strasbourgPhone": "+33(0)3 88 1 75222",
-			"twitter": "Martina"
+			"twitter": "@MEPStandingUp4U"
 		},
 		{
 			"firstName": "Jonathan",
@@ -48,7 +48,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45330",
 			"strasbourgPhone": "+33(0)3 88 1 75330",
-			"twitter": "Jonathan"
+			"twitter": "@JonathanArnott"
 		},
 		{
 			"firstName": "Richard",
@@ -58,7 +58,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45309",
 			"strasbourgPhone": "+33(0)3 88 1 75309",
-			"twitter": "Richard"
+			"twitter": "@RichardAshMEP"
 		},
 		{
 			"firstName": "Janice",
@@ -68,17 +68,17 @@
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45537",
 			"strasbourgPhone": "+33(0)3 88 1 75537",
-			"twitter": "Janice"
+			"twitter": "@JaniceUKIP"
 		},
 		{
 			"firstName": "Amjad",
 			"lastName": "Bashir",
 			"email": "amjad.bashir@europarl.europa.eu",
-			"membershipInDelegations": "DMAS\r\nD-AF",
+			"membershipInDelegations": "DMAS\nD-AF",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45319",
 			"strasbourgPhone": "+33(0)3 88 1 75319",
-			"twitter": "Amjad"
+			"twitter": "@AmjadBashirMEP"
 		},
 		{
 			"firstName": "Gerard",
@@ -88,7 +88,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45920",
 			"strasbourgPhone": "+33(0)3 88 1 75920",
-			"twitter": "Gerard"
+			"twitter": "@GerardBattenMEP"
 		},
 		{
 			"firstName": "Catherine",
@@ -98,7 +98,7 @@
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45632",
 			"strasbourgPhone": "+33(0)3 88 1 75632",
-			"twitter": "Catherine"
+			"twitter": "@catherinemep"
 		},
 		{
 			"firstName": "Louise",
@@ -108,7 +108,7 @@
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45552",
 			"strasbourgPhone": "+33(0)3 88 1 75552",
-			"twitter": "Louise"
+			"twitter": ""
 		},
 		{
 			"firstName": "Paul",
@@ -118,7 +118,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45795",
 			"strasbourgPhone": "+33(0)3 88 1 75795",
-			"twitter": "Paul"
+			"twitter": "@PaulBrannenNE"
 		},
 		{
 			"firstName": "Jonathan",
@@ -128,7 +128,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45764",
 			"strasbourgPhone": "+33(0)3 88 1 75764",
-			"twitter": "Jonathan"
+			"twitter": ""
 		},
 		{
 			"firstName": "David",
@@ -138,7 +138,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45733",
 			"strasbourgPhone": "+33(0)3 88 1 75733",
-			"twitter": "David"
+			"twitter": ""
 		},
 		{
 			"firstName": "James",
@@ -148,7 +148,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45744",
 			"strasbourgPhone": "+33(0)3 88 1 75744",
-			"twitter": "James"
+			"twitter": "@JamesJimCarver"
 		},
 		{
 			"firstName": "David",
@@ -158,7 +158,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45481",
 			"strasbourgPhone": "+33(0)3 88 1 75481",
-			"twitter": "David"
+			"twitter": "@DavidCoburnUKip"
 		},
 		{
 			"firstName": "Jane",
@@ -168,17 +168,17 @@
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45104",
 			"strasbourgPhone": "+33(0)3 88 1 75104",
-			"twitter": "Jane"
+			"twitter": ""
 		},
 		{
 			"firstName": "Richard",
 			"lastName": "Corbett",
 			"email": "richard.corbett@europarl.europa.eu",
-			"membershipInDelegations": "D-US\r\nDSAS",
+			"membershipInDelegations": "D-US\nDSAS",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45484",
 			"strasbourgPhone": "+33(0)3 88 1 75484",
-			"twitter": "Richard"
+			"twitter": "@RCorbettMEP"
 		},
 		{
 			"firstName": "Daniel",
@@ -188,7 +188,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45897",
 			"strasbourgPhone": "+33(0)3 88 1 75897",
-			"twitter": "Daniel"
+			"twitter": ""
 		},
 		{
 			"firstName": "Seb",
@@ -198,7 +198,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45833",
 			"strasbourgPhone": "+33(0)3 88 1 75833",
-			"twitter": "Seb"
+			"twitter": "@SebDance"
 		},
 		{
 			"firstName": "Nirj",
@@ -208,7 +208,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45245",
 			"strasbourgPhone": "+33(0)3 88 1 75245",
-			"twitter": "Nirj"
+			"twitter": ""
 		},
 		{
 			"firstName": "Diane",
@@ -218,7 +218,7 @@
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45770",
 			"strasbourgPhone": "+33(0)3 88 1 75770",
-			"twitter": "Diane"
+			"twitter": ""
 		},
 		{
 			"firstName": "Bill",
@@ -228,7 +228,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45453",
 			"strasbourgPhone": "+33(0)3 88 1 75453",
-			"twitter": "Bill"
+			"twitter": ""
 		},
 		{
 			"firstName": "Jill",
@@ -238,7 +238,7 @@
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45103",
 			"strasbourgPhone": "+33(0)3 88 1 75103",
-			"twitter": "Jill"
+			"twitter": "@JillEvansMEP"
 		},
 		{
 			"firstName": "Nigel",
@@ -248,7 +248,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45855",
 			"strasbourgPhone": "+33(0)3 88 1 75855",
-			"twitter": "Nigel"
+			"twitter": ""
 		},
 		{
 			"firstName": "Raymond",
@@ -258,7 +258,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45594",
 			"strasbourgPhone": "+33(0)3 88 1 75594",
-			"twitter": "Raymond"
+			"twitter": "@raymondfinch"
 		},
 		{
 			"firstName": "John",
@@ -268,7 +268,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45672",
 			"strasbourgPhone": "+33(0)3 88 1 75672",
-			"twitter": "John"
+			"twitter": ""
 		},
 		{
 			"firstName": "Jacqueline",
@@ -278,17 +278,17 @@
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45674",
 			"strasbourgPhone": "+33(0)3 88 1 75674",
-			"twitter": "Jacqueline"
+			"twitter": "@jfostermep"
 		},
 		{
 			"firstName": "Ashley",
 			"lastName": "Fox",
 			"email": "ashley.fox@europarl.europa.eu",
-			"membershipInDelegations": "D-BR\r\nDMER",
+			"membershipInDelegations": "D-BR\nDMER",
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45677",
 			"strasbourgPhone": "+33(0)3 88 1 75677",
-			"twitter": "Ashley"
+			"twitter": ""
 		},
 		{
 			"firstName": "Nathan",
@@ -298,17 +298,17 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45193",
 			"strasbourgPhone": "+33(0)3 88 1 75193",
-			"twitter": "Nathan"
+			"twitter": "@neenaformep"
 		},
 		{
 			"firstName": "Neena",
 			"lastName": "Gill",
 			"email": "neena.gill@europarl.europa.eu",
-			"membershipInDelegations": "D-US\r\nD-IN",
+			"membershipInDelegations": "D-US\nD-IN",
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45341",
 			"strasbourgPhone": "+33(0)3 88 1 75341",
-			"twitter": "Neena"
+			"twitter": "@NathanGillMEP"
 		},
 		{
 			"firstName": "Julie",
@@ -318,7 +318,7 @@
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45678",
 			"strasbourgPhone": "+33(0)3 88 1 75678",
-			"twitter": "Julie"
+			"twitter": "@juliegirling"
 		},
 		{
 			"firstName": "Theresa",
@@ -328,7 +328,7 @@
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45271",
 			"strasbourgPhone": "+33(0)3 88 1 75271",
-			"twitter": "Theresa"
+			"twitter": "@TheresaG_EU"
 		},
 		{
 			"firstName": "Daniel",
@@ -338,7 +338,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45137",
 			"strasbourgPhone": "+33(0)3 88 1 75137",
-			"twitter": "Daniel"
+			"twitter": "@DanHannanMEP"
 		},
 		{
 			"firstName": "Mary",
@@ -348,7 +348,7 @@
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45209",
 			"strasbourgPhone": "+33(0)3 88 1 75209",
-			"twitter": "Mary"
+			"twitter": "@maryhoneyball"
 		},
 		{
 			"firstName": "Mike",
@@ -358,7 +358,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45561",
 			"strasbourgPhone": "+33(0)3 88 1 75561",
-			"twitter": "Mike"
+			"twitter": "@Mike_Hookem"
 		},
 		{
 			"firstName": "John",
@@ -368,7 +368,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45273",
 			"strasbourgPhone": "+33(0)3 88 1 75273",
-			"twitter": "John"
+			"twitter": ""
 		},
 		{
 			"firstName": "Ian",
@@ -378,7 +378,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45499",
 			"strasbourgPhone": "+33(0)3 88 1 75499",
-			"twitter": "Ian"
+			"twitter": "@hudghtonmepSNP"
 		},
 		{
 			"firstName": "Diane",
@@ -388,7 +388,7 @@
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45541",
 			"strasbourgPhone": "+33(0)3 88 1 75541",
-			"twitter": "Diane"
+			"twitter": "@DianeJamesMEP"
 		},
 		{
 			"firstName": "Syed",
@@ -398,7 +398,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45792",
 			"strasbourgPhone": "+33(0)3 88 1 75792",
-			"twitter": "Syed"
+			"twitter": "@SyedKamall"
 		},
 		{
 			"firstName": "Sajjad",
@@ -408,7 +408,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45640",
 			"strasbourgPhone": "+33(0)3 88 1 75640",
-			"twitter": "Sajjad"
+			"twitter": "@SajjadKarimMEP"
 		},
 		{
 			"firstName": "Wajid",
@@ -418,7 +418,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45437",
 			"strasbourgPhone": "+33(0)3 88 1 75437",
-			"twitter": "Wajid"
+			"twitter": ""
 		},
 		{
 			"firstName": "Jude",
@@ -428,7 +428,7 @@
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45105",
 			"strasbourgPhone": "+33(0)3 88 1 75105",
-			"twitter": "Jude"
+			"twitter": "@Jude_KD"
 		},
 		{
 			"firstName": "Jean",
@@ -438,7 +438,7 @@
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45507",
 			"strasbourgPhone": "+33(0)3 88 1 75507",
-			"twitter": "Jean"
+			"twitter": "@GreenJeanMEP"
 		},
 		{
 			"firstName": "David",
@@ -448,7 +448,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45539",
 			"strasbourgPhone": "+33(0)3 88 1 75539",
-			"twitter": "David"
+			"twitter": "@davidmartinmep"
 		},
 		{
 			"firstName": "Rupert",
@@ -458,7 +458,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45598",
 			"strasbourgPhone": "+33(0)3 88 1 75598",
-			"twitter": "Rupert"
+			"twitter": ""
 		},
 		{
 			"firstName": "Alex",
@@ -468,7 +468,7 @@
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45277",
 			"strasbourgPhone": "+33(0)3 88 1 75277",
-			"twitter": "Alex"
+			"twitter": ""
 		},
 		{
 			"firstName": "Linda",
@@ -478,7 +478,7 @@
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45438",
 			"strasbourgPhone": "+33(0)3 88 1 75438",
-			"twitter": "Linda"
+			"twitter": "@LindaMcAvanMEP"
 		},
 		{
 			"firstName": "Emma",
@@ -488,7 +488,7 @@
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45684",
 			"strasbourgPhone": "+33(0)3 88 1 75684",
-			"twitter": "Emma"
+			"twitter": "@EmmaMcClarkin"
 		},
 		{
 			"firstName": "Anthea",
@@ -498,27 +498,17 @@
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45106",
 			"strasbourgPhone": "+33(0)3 88 1 75106",
-			"twitter": "Anthea"
+			"twitter": ""
 		},
 		{
-			"firstName": "Angelika",
-			"lastName": "Mlinar",
-			"email": "angelika.mlinar@europarl.europa.eu",
-			"membershipInDelegations": "DMAS\r\nD-CN",
+			"firstName": "Nosheena",
+			"lastName": "Mobarik",
+			"email": "nosheena.mobarik@europarl.europa.eu",
+			"membershipInDelegations": "D-JP",
 			"gender": "F",
-			"brusselsPhone": "+32(0)2 28 45851",
-			"strasbourgPhone": "+33(0)3 88 1 75851",
-			"twitter": "Angelika"
-		},
-		{
-			"firstName": "Sophie",
-			"lastName": "Montel",
-			"email": "sophie.montel@europarl.europa.eu",
-			"membershipInDelegations": "",
-			"gender": "F",
-			"brusselsPhone": "+32(0)2 28 45126",
-			"strasbourgPhone": "+33(0)3 88 1 75126",
-			"twitter": "Sophie"
+			"brusselsPhone": "+32(0)2 28 45249",
+			"strasbourgPhone": "+33(0)3 88 1 75249",
+			"twitter": ""
 		},
 		{
 			"firstName": "Clare",
@@ -528,207 +518,217 @@
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45308",
 			"strasbourgPhone": "+33(0)3 88 1 75308",
-			"twitter": "Clare"
+			"twitter": "@ClareMoodyMEP"
 		},
 		{
-			"firstName": "Dan",
-			"lastName": "Nica",
-			"email": "dan.nica@europarl.europa.eu",
+			"firstName": "Claude",
+			"lastName": "Moraes",
+			"email": "claude.moraes@europarl.europa.eu",
+			"membershipInDelegations": "DSAS",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45553",
+			"strasbourgPhone": "+33(0)3 88 1 75553",
+			"twitter": "@claude_moraes"
+		},
+		{
+			"firstName": "James",
+			"lastName": "Nicholson",
+			"email": "james.nicholson@europarl.europa.eu",
+			"membershipInDelegations": "DSAS",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45933",
+			"strasbourgPhone": "+33(0)3 88 1 75933",
+			"twitter": "@JimNicholsonMEP"
+		},
+		{
+			"firstName": "Paul",
+			"lastName": "Nuttall",
+			"email": "paul.nuttall@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45740",
+			"strasbourgPhone": "+33(0)3 88 1 75740",
+			"twitter": "@paulnuttallukip"
+		},
+		{
+			"firstName": "Patrick",
+			"lastName": "O'flynn",
+			"email": "patrick.oflynn@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45337",
+			"strasbourgPhone": "+33(0)3 88 1 75337",
+			"twitter": "@oflynnmep"
+		},
+		{
+			"firstName": "Rory",
+			"lastName": "Palmer",
+			"email": "rory.palmer@europarl.europa.eu",
 			"membershipInDelegations": "D-US",
 			"gender": "M",
-			"brusselsPhone": "+32(0)2 28 45448",
-			"strasbourgPhone": "+33(0)3 88 1 75448",
-			"twitter": "Dan"
+			"brusselsPhone": "+32(0)2 28 45459",
+			"strasbourgPhone": "+33(0)3 88 1 75459",
+			"twitter": ""
 		},
 		{
-			"firstName": "Andrey",
-			"lastName": "Novakov",
-			"email": "andrey.novakov@europarl.europa.eu",
-			"membershipInDelegations": "DCAM",
+			"firstName": "Margot",
+			"lastName": "Parker",
+			"email": "margot.parker@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45182",
+			"strasbourgPhone": "+33(0)3 88 1 75182",
+			"twitter": "@MargotLJParker"
+		},
+		{
+			"firstName": "John",
+			"lastName": "Procter",
+			"email": "john.procter@europarl.europa.eu",
+			"membershipInDelegations": "",
 			"gender": "M",
-			"brusselsPhone": "+32(0)2 28 45710",
-			"strasbourgPhone": "+33(0)3 88 1 75710",
-			"twitter": "Andrey"
+			"brusselsPhone": "+32(0)2 28 45321",
+			"strasbourgPhone": "+33(0)3 88 1 75321",
+			"twitter": ""
 		},
 		{
-			"firstName": "Franz",
-			"lastName": "Obermayr",
-			"email": "franz.obermayr@europarl.europa.eu",
+			"firstName": "Julia",
+			"lastName": "Reid",
+			"email": "julia.reid@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45741",
+			"strasbourgPhone": "+33(0)3 88 1 75741",
+			"twitter": ""
+		},
+		{
+			"firstName": "Molly",
+			"lastName": "Scott Cato",
+			"email": "molly.scottcato@europarl.europa.eu",
+			"membershipInDelegations": "DMER",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45737",
+			"strasbourgPhone": "+33(0)3 88 1 75737",
+			"twitter": "@MollyMEP"
+		},
+		{
+			"firstName": "Jill",
+			"lastName": "Seymour",
+			"email": "jill.seymour@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45803",
+			"strasbourgPhone": "+33(0)3 88 1 75803",
+			"twitter": "@JSeymourUKIP"
+		},
+		{
+			"firstName": "Si\u00f4n",
+			"lastName": "Simon",
+			"email": "sion.simon@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45505",
+			"strasbourgPhone": "+33(0)3 88 1 75505",
+			"twitter": "@sionsimon"
+		},
+		{
+			"firstName": "Alyn",
+			"lastName": "Smith",
+			"email": "alyn.smith@europarl.europa.eu",
+			"membershipInDelegations": "DARP\nD-IQ",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45187",
+			"strasbourgPhone": "+33(0)3 88 1 75187",
+			"twitter": "@AlynSmithMEP"
+		},
+		{
+			"firstName": "Catherine",
+			"lastName": "Stihler",
+			"email": "catherine.stihler@europarl.europa.eu",
+			"membershipInDelegations": "DEEA",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45462",
+			"strasbourgPhone": "+33(0)3 88 1 75462",
+			"twitter": "@C_Stihler_MEP"
+		},
+		{
+			"firstName": "Kay",
+			"lastName": "Swinburne",
+			"email": "kay.swinburne@europarl.europa.eu",
+			"membershipInDelegations": "D-US",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45687",
+			"strasbourgPhone": "+33(0)3 88 1 75687",
+			"twitter": ""
+		},
+		{
+			"firstName": "Charles",
+			"lastName": "Tannock",
+			"email": "charles.tannock@europarl.europa.eu",
+			"membershipInDelegations": "DAND",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45870",
+			"strasbourgPhone": "+33(0)3 88 1 75870",
+			"twitter": ""
+		},
+		{
+			"firstName": "Keith",
+			"lastName": "Taylor",
+			"email": "keith.taylor@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45153",
+			"strasbourgPhone": "+33(0)3 88 1 75153",
+			"twitter": "@GreenKeithMEP"
+		},
+		{
+			"firstName": "William",
+			"lastName": "(the Earl Of) Dartmouth",
+			"email": "william.dartmouth@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45735",
+			"strasbourgPhone": "+33(0)3 88 1 75735",
+			"twitter": ""
+		},
+		{
+			"firstName": "Geoffrey",
+			"lastName": "Van Orden",
+			"email": "geoffrey.vanorden@europarl.europa.eu",
 			"membershipInDelegations": "D-IN",
 			"gender": "M",
-			"brusselsPhone": "+32(0)2 28 45680",
-			"strasbourgPhone": "+33(0)3 88 1 75680",
-			"twitter": "Franz"
+			"brusselsPhone": "+32(0)2 28 45332",
+			"strasbourgPhone": "+33(0)3 88 1 75332",
+			"twitter": ""
 		},
 		{
-			"firstName": "Rolandas",
-			"lastName": "Paksas",
-			"email": "rolandas.paksas@europarl.europa.eu",
-			"membershipInDelegations": "DEEA\r\nDSCA",
+			"firstName": "Derek",
+			"lastName": "Vaughan",
+			"email": "derek.vaughan@europarl.europa.eu",
+			"membershipInDelegations": "DANZ",
 			"gender": "M",
-			"brusselsPhone": "+32(0)2 28 45671",
-			"strasbourgPhone": "+33(0)3 88 1 75671",
-			"twitter": "Rolandas"
+			"brusselsPhone": "+32(0)2 28 45419",
+			"strasbourgPhone": "+33(0)3 88 1 75419",
+			"twitter": "@derekvaughan"
 		},
 		{
-			"firstName": "Gilles",
-			"lastName": "Pargneaux",
-			"email": "gilles.pargneaux@europarl.europa.eu",
-			"membershipInDelegations": "DMAS",
-			"gender": "M",
-			"brusselsPhone": "+32(0)2 28 45440",
-			"strasbourgPhone": "+33(0)3 88 1 75440",
-			"twitter": "Gilles"
-		},
-		{
-			"firstName": "Gabriele",
-			"lastName": "Preuss",
-			"email": "gabriele.preuss@europarl.europa.eu",
-			"membershipInDelegations": "",
-			"gender": "F",
-			"brusselsPhone": "+32(0)2 28 45845",
-			"strasbourgPhone": "+33(0)3 88 1 75845",
-			"twitter": "Gabriele"
-		},
-		{
-			"firstName": "Evelyn",
-			"lastName": "Regner",
-			"email": "evelyn.regner@europarl.europa.eu",
-			"membershipInDelegations": "DAND",
-			"gender": "F",
-			"brusselsPhone": "+32(0)2 28 45476",
-			"strasbourgPhone": "+33(0)3 88 1 75476",
-			"twitter": "Evelyn"
-		},
-		{
-			"firstName": "Andreas",
-			"lastName": "Schwab",
-			"email": "andreas.schwab@europarl.europa.eu",
-			"membershipInDelegations": "",
-			"gender": "M",
-			"brusselsPhone": "+32(0)2 28 45938",
-			"strasbourgPhone": "+33(0)3 88 1 75938",
-			"twitter": "Andreas"
-		},
-		{
-			"firstName": "Remo",
-			"lastName": "Sernagiotto",
-			"email": "remo.sernagiotto@europarl.europa.eu",
-			"membershipInDelegations": "D-RU",
-			"gender": "M",
-			"brusselsPhone": "+32(0)2 28 45269",
-			"strasbourgPhone": "+33(0)3 88 1 75269",
-			"twitter": "Remo"
-		},
-		{
-			"firstName": "Pedro",
-			"lastName": "Silva Pereira",
-			"email": "pedro.silvapereira@europarl.europa.eu",
-			"membershipInDelegations": "D-JP",
-			"gender": "M",
-			"brusselsPhone": "+32(0)2 28 45707",
-			"strasbourgPhone": "+33(0)3 88 1 75707",
-			"twitter": "Pedro"
-		},
-		{
-			"firstName": "Branislav",
-			"lastName": "\u0160kripek",
-			"email": "branislav.skripek@europarl.europa.eu",
-			"membershipInDelegations": "D-IL",
-			"gender": "M",
-			"brusselsPhone": "+32(0)2 28 45509",
-			"strasbourgPhone": "+33(0)3 88 1 75509",
-			"twitter": "Branislav"
-		},
-		{
-			"firstName": "Jarom\u00edr",
-			"lastName": "\u0160t\u011btina",
-			"email": "jaromir.stetina@europarl.europa.eu",
-			"membershipInDelegations": "DSCA",
-			"gender": "M",
-			"brusselsPhone": "+32(0)2 28 45492",
-			"strasbourgPhone": "+33(0)3 88 1 75492",
-			"twitter": "Jarom\u00edr"
-		},
-		{
-			"firstName": "Patricija",
-			"lastName": "\u0160ulin",
-			"email": "patricija.sulin@europarl.europa.eu",
-			"membershipInDelegations": "",
-			"gender": "F",
-			"brusselsPhone": "+32(0)2 28 45470",
-			"strasbourgPhone": "+33(0)3 88 1 75470",
-			"twitter": "Patricija"
-		},
-		{
-			"firstName": "Claudiu Ciprian",
-			"lastName": "T\u0103n\u0103sescu",
-			"email": "claudiuciprian.tanasescu@europarl.europa.eu",
-			"membershipInDelegations": "D-CA",
-			"gender": "M",
-			"brusselsPhone": "+32(0)2 28 45790",
-			"strasbourgPhone": "+33(0)3 88 1 75790",
-			"twitter": "Claudiu Ciprian"
-		},
-		{
-			"firstName": "Marc",
-			"lastName": "Tarabella",
-			"email": "marc.tarabella@europarl.europa.eu",
-			"membershipInDelegations": "DASE",
-			"gender": "M",
-			"brusselsPhone": "+32(0)2 28 45444",
-			"strasbourgPhone": "+33(0)3 88 1 75444",
-			"twitter": "Marc"
-		},
-		{
-			"firstName": "Pavel",
-			"lastName": "Teli\u010dka",
-			"email": "pavel.telicka@europarl.europa.eu",
-			"membershipInDelegations": "D-IL",
-			"gender": "M",
-			"brusselsPhone": "+32(0)2 28 45787",
-			"strasbourgPhone": "+33(0)3 88 1 75787",
-			"twitter": "Pavel"
-		},
-		{
-			"firstName": "Matthijs",
-			"lastName": "Van Miltenburg",
-			"email": "matthijs.vanmiltenburg@europarl.europa.eu",
-			"membershipInDelegations": "",
-			"gender": "M",
-			"brusselsPhone": "+32(0)2 28 45724",
-			"strasbourgPhone": "+33(0)3 88 1 75724",
-			"twitter": "Matthijs"
-		},
-		{
-			"firstName": "Lambert",
-			"lastName": "Van Nistelrooij",
-			"email": "lambert.vannistelrooij@europarl.europa.eu",
-			"membershipInDelegations": "D-BR\r\nDMER",
-			"gender": "M",
-			"brusselsPhone": "+32(0)2 28 45434",
-			"strasbourgPhone": "+33(0)3 88 1 75434",
-			"twitter": "Lambert"
-		},
-		{
-			"firstName": "Thomas",
-			"lastName": "Waitz",
-			"email": "thomas.waitz@europarl.europa.eu",
+			"firstName": "Julie",
+			"lastName": "Ward",
+			"email": "julie.ward@europarl.europa.eu",
 			"membershipInDelegations": "DSEE",
-			"gender": "M",
-			"brusselsPhone": "+32(0)2 28 45395",
-			"strasbourgPhone": "+33(0)3 88 1 75395",
-			"twitter": "Thomas"
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45702",
+			"strasbourgPhone": "+33(0)3 88 1 75702",
+			"twitter": "@julie4nw"
 		},
 		{
-			"firstName": "Jadwiga",
-			"lastName": "Wi\u015bniewska",
-			"email": "jadwiga.wisniewska@europarl.europa.eu",
+			"firstName": "Steven",
+			"lastName": "Woolfe",
+			"email": "steven.woolfe@europarl.europa.eu",
 			"membershipInDelegations": "",
-			"gender": "F",
-			"brusselsPhone": "+32(0)2 28 45471",
-			"strasbourgPhone": "+33(0)3 88 1 75471",
-			"twitter": "Jadwiga"
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45115",
+			"strasbourgPhone": "+33(0)3 88 1 75115",
+			"twitter": "@Steven_Woolfe"
 		}
 	]
 }

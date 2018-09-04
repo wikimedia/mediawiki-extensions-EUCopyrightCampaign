@@ -76,5 +76,6 @@
 	"eucc-mail-dialog-target-rep": "Representative info when sending mail. $1 - Rep name, $2 - Rep email",
 	"eucc-call-dialog-title": "Title of call dialog",
 	"eucc-tweet-at-rep-default-text": "Default text when tweeting at representatives",
-	"eucc-twitter-dialog-title": "Title of tweet dialog"
+	"eucc-twitter-dialog-title": "Title of tweet dialog",
+	"eucc-contact-top-alternatives-only-phone-text": "Text appearing before email form, offering instructions and alternative ways to contact your representative - without twitter"
 }

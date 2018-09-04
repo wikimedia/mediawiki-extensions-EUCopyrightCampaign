@@ -86,5 +86,6 @@
 	"eucc-mail-dialog-target-rep": "$1 $2",
 	"eucc-call-dialog-title": "Call your representative",
 	"eucc-tweet-at-rep-default-text": "I write today to support a copyright framework for Europe that respects everyone's right to communicate effectively online as well as to collect, create, and share knowledge with the world.",
-	"eucc-twitter-dialog-title": "Tweet @representative"
+	"eucc-twitter-dialog-title": "Tweet @representative",
+	"eucc-contact-top-alternatives-only-phone-text": "Please fill out the form and generate the email to send to your representative. You can also $1 your representative"
 }

@@ -8,7 +8,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45445",
 			"strasbourgPhone": "+33(0)3 88 1 75445",
-			"twitter": "David"
+			"twitter": "@DavidCasaMEP"
 		},
 		{
 			"firstName": "Miriam",
@@ -18,7 +18,7 @@
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45635",
 			"strasbourgPhone": "+33(0)3 88 1 75635",
-			"twitter": "Miriam"
+			"twitter": "@Miriamdalli"
 		},
 		{
 			"firstName": "Roberta",
@@ -28,37 +28,37 @@
 			"gender": "F",
 			"brusselsPhone": "+32(0)2 28 45686",
 			"strasbourgPhone": "+33(0)3 88 1 75686",
-			"twitter": "Roberta"
+			"twitter": "@RobertaMetsola"
 		},
 		{
-			"firstName": "Miroslavs",
-			"lastName": "Mitrofanovs",
-			"email": "miroslavs.mitrofanovs@europarl.europa.eu",
-			"membershipInDelegations": "DCAS",
-			"gender": "M",
-			"brusselsPhone": "+32(0)2 28 45912",
-			"strasbourgPhone": "+33(0)3 88 1 75912",
-			"twitter": "Miroslavs"
-		},
-		{
-			"firstName": "Anne",
-			"lastName": "Sander",
-			"email": "anne.sander@europarl.europa.eu",
-			"membershipInDelegations": "D-JP",
-			"gender": "F",
-			"brusselsPhone": "+32(0)2 28 45525",
-			"strasbourgPhone": "+33(0)3 88 1 77525",
-			"twitter": "Anne"
-		},
-		{
-			"firstName": "Jan",
-			"lastName": "Zahradil",
-			"email": "jan.zahradil@europarl.europa.eu",
+			"firstName": "Marlene",
+			"lastName": "Mizzi",
+			"email": "marlene.mizzi@europarl.europa.eu",
 			"membershipInDelegations": "",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45235",
+			"strasbourgPhone": "+33(0)3 88 1 75235",
+			"twitter": "@MarleneMizzi"
+		},
+		{
+			"firstName": "Alfred",
+			"lastName": "Sant",
+			"email": "alfred.sant@europarl.europa.eu",
+			"membershipInDelegations": "D-US",
 			"gender": "M",
-			"brusselsPhone": "+32(0)2 28 45666",
-			"strasbourgPhone": "+33(0)3 88 1 75666",
-			"twitter": "Jan"
+			"brusselsPhone": "+32(0)2 28 45287",
+			"strasbourgPhone": "+33(0)3 88 1 75287",
+			"twitter": "@SantAlfred"
+		},
+		{
+			"firstName": "Francis",
+			"lastName": "Zammit Dimech",
+			"email": "francis.zammitdimech@europarl.europa.eu",
+			"membershipInDelegations": "DPAL\nDMAG",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45835",
+			"strasbourgPhone": "+33(0)3 88 1 75835",
+			"twitter": "@franciszd"
 		}
 	]
 }
