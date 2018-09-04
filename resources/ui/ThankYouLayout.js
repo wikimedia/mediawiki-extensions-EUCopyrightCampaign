@@ -38,7 +38,7 @@
 
 	eucc.ui.ThankYouLayout.prototype.makeTweet = function() {
 		this.hashtagLink = "<a href='https://twitter.com/hashtag/fixcopyright?src=hash'>#fixcopyright</a>";
-		this.policyLink = "<a class='policy-link' href='http://policy.wikimedia.org/fixcopyright'>http://policy.wikimedia.org/fixcopyright</a>";
+		this.policyLink = "<a class='policy-link' href='https://fixcopyright.wikimedia.org'>fixcopyright.wikimedia.org</a>";
 
 		var tweetText = mw.message( 'eucc-share-tweet-text' ).escaped();
 		tweetText = tweetText.replace( '$1', this.hashtagLink );
@@ -55,7 +55,7 @@
 		var messageForTwitter = mw.message(
 			"eucc-share-tweet-text",
 			"#fixcopyright",
-			" \u{1F449} http://policy.wikimedia.org/fixcopyright"
+			" \u{1F449} fixcopyright.wikimedia.org"
 		).text();
 
 		var twitterPostURL = "https://twitter.com/intent/tweet?button_hashtag=fixcopyright&ref_src=twsrc%5Etfw&text=";
