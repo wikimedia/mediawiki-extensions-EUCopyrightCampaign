@@ -19,11 +19,11 @@
 	"eucc-email-greeting": "Dear $1,",
 	"eucc-email-user-info": "My name is $1 $2 and I live in $3.",
 
-	"eucc-email-part-one-v1": "I write to you to share with you my support for a forward-looking copyright framework that promotes everyone’s ability to freely communicate online and participate in the creation and collection of knowledge. I want to highlight the opportunity for you and your colleagues at the European Parliament to make sure EU copyright law keeps up with the digital age.",
-	"eucc-email-part-one-v2": "I am writing today to express my support for a European copyright framework which would ensure that every EU citizen can communicate freely online and collaborate to collect and share knowledge. This is a rare moment where you and your colleagues at the European Parliament can ensure that Europe’s copyright law reflects the world that European citizen’s are already living in online.",
-	"eucc-email-part-one-v3": "I write today to support a copyright framework for Europe that respects everyone’s right to communicate effectively online as well as to collect, create, and share knowledge with the world. This upcoming vote is an opportunity for you and your colleagues in Parliament to acknowledge the realities of the digital age and harmonize our copyright law to match those realities.",
+	"eucc-email-part-one-v1": "I write to you to share with you my support for a forward-looking copyright framework that promotes everyone’s ability to freely communicate online and participate in the creation and collection of knowledge. I want to highlight the opportunity you have to make sure EU copyright law keeps up with the digital age.",
+	"eucc-email-part-one-v2": "I am writing today to express my support for a European copyright framework which would ensure that every EU citizen can communicate freely online and collaborate to collect and share knowledge. This is a rare moment where your vote can ensure that Europe’s copyright law reflects the world that European citizens are already living in online.",
+	"eucc-email-part-one-v3": "I write today to support a copyright framework for Europe that respects everyone’s right to to collect, create, and share knowledge with the world. This upcoming vote is an opportunity for you and your colleagues in Parliament to acknowledge the realities of the digital age and harmonize our copyright law to match those realities.",
 
-	"eucc-email-issues-intro": "There are a few simple things that Wikipedia and I support to #fixcopyright:",
+	"eucc-email-issues-intro": "There are a few simple things that Wikimedia and I support to #fixcopyright:",
 	"eucc-email-part-two": "Finally, I urge you consider these improvements to copyright without imposing additional restrictions. There should not be pre-filtering obligations for platform providers because they will fundamentally turn the internet into medium where people can only communicate after receiving a company’s permission. This will hurt the culture of sharing that is necessary for Wikipedia to grow and flourish.",
 
 	"eucc-email-outro-v1": "Thank you for considering these important issues when you cast your vote on the copyright proposal. I hope you will promote your constituents’ access to knowledge and support rules that allow everyone to be a creator.",
@@ -39,9 +39,9 @@
 	"eucc-email-email-input-placeholder": "Email address",
 
 	"eucc-option-protect-public-domain-label": "Protect the Public Domain",
-	"eucc-option-protect-public-domain-text-v1": "The EU needs to protect the public domain and ensure all Europeans can enjoy it in the digital world as in the analog. Wikipedia uses a lot of works that are in the public domain, such as impressionist paintings or early world maps, to illustrate articles.",
-	"eucc-option-protect-public-domain-text-v2": "The European Parliament must ensure that everyone can enjoy public domain works online just as they can in person. Public domain works enrich the world’s store of knowledge and culture, ultimately making educational projects like Wikipedia even more useful.",
-	"eucc-option-protect-public-domain-text-v3": "A common-sense public domain exception for virtual copies of public domain works across the EU will reduce uncertainty about digitization and allow people around the continent and the world to partake in Europe’s rich cultural history. Wikipedia articles about art, history, and even cartography are illustrated with public domain images which allow users not only to read about these subject, but see them.",
+	"eucc-option-protect-public-domain-text-v1": "The EU needs to protect the public domain and ensure that all Europeans can enjoy it, online and in the real world. Wikipedia uses a lot of works that are in the public domain, such as impressionist paintings or early world maps, to illustrate articles.",
+	"eucc-option-protect-public-domain-text-v2": "The European Parliament must ensure that everyone can enjoy public domain works online, just as they can in person. Public domain works enrich the world’s store of knowledge and culture, ultimately making educational projects like Wikipedia even more useful.",
+	"eucc-option-protect-public-domain-text-v3": "A common-sense public domain exception for virtual copies of public domain works across the EU will allow people around the continent and the world to partake in Europe’s rich cultural history. Wikipedia articles about art, history, and even cartography are illustrated with public domain images which allow users not only to read about these subject, but see them",
 
 	"eucc-option-freedom-of-panorama-label": "Freedom of Panorama",
 	"eucc-option-freedom-of-panorama-text-v1": "Everybody who reads Wikipedia would also greatly benefit from wider availability of photographs of buildings and city landscapes that can be freely shared online. European copyright law should not include an exception for photographs of architecture and sculpted works in public spaces.",
@@ -51,7 +51,7 @@
 	"eucc-option-exception-for-ucg-label": "Exception for User-generated Content",
 	"eucc-option-exception-for-ucg-text-v1": "Our law should also catch up with reality and make sure the ways in which we communicate online -- by sharing videos, creating memes, and linking to news articles -- is not outlawed or unduly restricted.",
 	"eucc-option-exception-for-ucg-text-v2": "Additionally, EU citizens share and create user-generated content nearly everyday, and our new copyright law should reflect that. Everyone should be free to share videos, create memes, and link to news articles without undue restrictions.",
-	"eucc-option-exception-for-ucg-text-v3": "EU copyright law should reflect the way people communicate online today and create exceptions to user-generated content like memes, videos, and links to news articles. ",
+	"eucc-option-exception-for-ucg-text-v3": "EU copyright law should reflect the way people communicate online today and create exceptions to user-generated content like memes, videos, and links to news articles.",
 
 	"eucc-option-exception-for-text-and-data-mining-label": "Text and Data Mining Exceptions",
 	"eucc-option-exception-for-text-and-data-mining-text-v1": "Broad exceptions for text and data mining will allow everyone with a computer to gain new insights from data they have lawful access to, so everyone can contribute to the advancement of science and research.",
@@ -66,7 +66,7 @@
 	"eucc-thank-you-header": "Thank you!",
 	"eucc-thank-you-text": "Your action has put Europe one step closer to an updated copyright framework which reflects the reality of how people create, find, and share information online today. By contacting your MEP, you have shown that this is an issue that affects real people, not just large companies. Wikimedia thrives when many diverse voices collaborate to share their knowledge on our projects, and we thank you for lending your voice today in support of an environment where these projects can continue to flourish.",
 	"eucc-share-tweet-text": "I just contacted my MEP and told them to $1 in the EU! Contact your representative at $2",
-	"eucc-share-tweet-label": "Tell your friends",
+	"eucc-share-tweet-label": "Ask your friends to contact their representative",
 	"eucc-share-tweet-button-label": "Tweet",
 	"eucc-copy-to-clipboard-success": "Email copied to clipboard",
 	"eucc-copy-to-clipboard-fail": "Email could not be copied to clipboard",

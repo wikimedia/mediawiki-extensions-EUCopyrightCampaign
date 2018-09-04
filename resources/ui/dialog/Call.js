@@ -79,7 +79,7 @@
 		var phonePill = new OO.ui.HorizontalLayout( {
 			items: [
 				new OO.ui.IconWidget( {
-					icon: 'next', // TODO: Needs dedicated icon
+					icon: 'call',
 					flags: [
 						'progressive'
 					]
