@@ -38,6 +38,8 @@
 
 	eucc.ui.ContactWidget.prototype.makeTopAlternatives = function() {
 		this.$topAlternativesContainer = $( '<div>' ).addClass( 'eucc-contact-top-alternatives' );
+
+		var alternativeText = mw.message( 'eucc-contact-top-alternatives-only-phone-text' ).escaped();
 		var callButton = new OO.ui.ButtonWidget( {
 			framed: false,
 			label: mw.message( 'eucc-contact-button-call-short-label' ).text(),
@@ -56,15 +58,20 @@
 		} );
 		tweetButton.on( 'click', this.openTweetDialog.bind( this ) );
 
-		var alternativeText = mw.message( 'eucc-contact-top-alternatives-text' ).escaped();
-
+		var alternativeText = mw.message( 'eucc-contact-top-alternatives-only-phone-text' ).escaped();
+		if( this.representative.twitter !== '' ) {
+			alternativeText = mw.message( 'eucc-contact-top-alternatives-text' ).escaped();
+			alternativeText = alternativeText.replace( '$2', '<a id="top-alternative-tweet"></a>' );
+		}
 		alternativeText = alternativeText.replace( '$1', '<a id="top-alternative-call"></a>' );
-		alternativeText = alternativeText.replace( '$2', '<a id="top-alternative-tweet"></a>' );
 
 		this.$topAlternativesContainer.append( $( '<span>' ).html( alternativeText ) );
 
 		this.$topAlternativesContainer.find( 'a#top-alternative-call' ).replaceWith( callButton.$element );
-		this.$topAlternativesContainer.find( 'a#top-alternative-tweet' ).replaceWith( tweetButton.$element );
+
+		if( this.representative.twitter !== '' ) {
+			this.$topAlternativesContainer.find( 'a#top-alternative-tweet' ).replaceWith( tweetButton.$element );
+		}
 
 		this.$element.append( this.$topAlternativesContainer );
 	}
@@ -83,17 +90,22 @@
 			}.bind( this ) );
 		}.bind( this ) );
 
-		var tweetButton = new OO.ui.ButtonWidget( {
-			label: mw.message(
-					'eucc-contact-button-tweet-label',
-					this.representative.twitter
-				).text(),
-			framed: false,
-			flags: [
-				"progressive"
-			]
-		} );
-		tweetButton.on( 'click', this.openTweetDialog.bind( this ) );
+		var items = [ generateMailButton ];
+
+		if( this.representative.twitter !== '' ) {
+			var tweetButton = new OO.ui.ButtonWidget( {
+				label: mw.message(
+						'eucc-contact-button-tweet-label',
+						this.representative.twitter
+					).text(),
+				framed: false,
+				flags: [
+					"progressive"
+				]
+			} );
+			tweetButton.on( 'click', this.openTweetDialog.bind( this ) );
+			items.push( tweetButton );
+		}
 
 		var callButton = new OO.ui.ButtonWidget( {
 			label: mw.message( 'eucc-contact-button-call-label' ).text(),
@@ -103,13 +115,10 @@
 			]
 		} );
 		callButton.on( 'click', this.openCallDialog.bind( this ) );
+		items.push( callButton );
 
 		this.buttonsLayout = new OO.ui.HorizontalLayout( {
-			items: [
-				generateMailButton,
-				tweetButton,
-				callButton
-			]
+			items: items
 		} );
 	};
 

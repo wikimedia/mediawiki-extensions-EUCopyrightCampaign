@@ -8,7 +8,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45876",
 			"strasbourgPhone": "+33(0)3 88 1 75876",
-			"twitter": "Lefteris"
+			"twitter": "@LefChristoforou"
 		},
 		{
 			"firstName": "Takis",
@@ -18,7 +18,7 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45657",
 			"strasbourgPhone": "+33(0)3 88 1 75657",
-			"twitter": "Takis"
+			"twitter": "@thadjigeorgiou"
 		},
 		{
 			"firstName": "Costas",
@@ -28,37 +28,37 @@
 			"gender": "M",
 			"brusselsPhone": "+32(0)2 28 45648",
 			"strasbourgPhone": "+33(0)3 88 1 75648",
-			"twitter": "Costas"
+			"twitter": ""
 		},
 		{
-			"firstName": "Massimo",
-			"lastName": "Paolucci",
-			"email": "massimo.paolucci@europarl.europa.eu",
-			"membershipInDelegations": "D-CN",
+			"firstName": "Demetris",
+			"lastName": "Papadakis",
+			"email": "demetris.papadakis@europarl.europa.eu",
+			"membershipInDelegations": "D-RU",
 			"gender": "M",
-			"brusselsPhone": "+32(0)2 28 45311",
-			"strasbourgPhone": "+33(0)3 88 1 75311",
-			"twitter": "Massimo"
+			"brusselsPhone": "+32(0)2 28 45604",
+			"strasbourgPhone": "+33(0)3 88 1 75604",
+			"twitter": "@DemPapadakis"
 		},
 		{
-			"firstName": "Pavel",
-			"lastName": "Svoboda",
-			"email": "pavel.svoboda@europarl.europa.eu",
+			"firstName": "Neoklis",
+			"lastName": "Sylikiotis",
+			"email": "neoklis.sylikiotis@europarl.europa.eu",
+			"membershipInDelegations": "DPAL",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45754",
+			"strasbourgPhone": "+33(0)3 88 1 75754",
+			"twitter": "@sylikiotis"
+		},
+		{
+			"firstName": "Eleni",
+			"lastName": "Theocharous",
+			"email": "eleni.theocharous@europarl.europa.eu",
 			"membershipInDelegations": "",
-			"gender": "M",
-			"brusselsPhone": "+32(0)2 28 45303",
-			"strasbourgPhone": "+33(0)3 88 1 75303",
-			"twitter": "Pavel"
-		},
-		{
-			"firstName": "Josep-Maria",
-			"lastName": "Terricabras",
-			"email": "josep-maria.terricabras@europarl.europa.eu",
-			"membershipInDelegations": "",
-			"gender": "M",
-			"brusselsPhone": "+32(0)2 28 45748",
-			"strasbourgPhone": "+33(0)3 88 1 75748",
-			"twitter": "Josep-Maria"
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45293",
+			"strasbourgPhone": "+33(0)3 88 1 75293",
+			"twitter": "@THEOCHAROUSE"
 		}
 	]
 }
