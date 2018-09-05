@@ -65,7 +65,7 @@
 		twitterPostURL += encodeURIComponent( messageForTwitter );
 
 		this.twitterButton = new OO.ui.ButtonWidget( {
-			label: mw.message( 'eucc-share-tweet-button-label' ).escaped(),
+			label: mw.message( 'eucc-share-tweet-button-label' ).text(),
 			flags: [
 				'progressive',
 				'primary'

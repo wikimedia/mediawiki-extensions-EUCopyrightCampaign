@@ -59,8 +59,8 @@ class ContactYourMEP extends \IncludableSpecialPage {
 			$this->getConfig()->get( 'EUCopyrightCampaignNewsletterSubmitTarget' )
 		);
 		$out->addJsConfigVars(
-			'euccPrivacyPolicyURL',
-			$this->getConfig()->get( 'EUCopyrightCampaignPrivacyPolicyURL' )
+			'euccMailingListPrivacyPolicyURL',
+			$this->getConfig()->get( 'EUCopyrightCampaignMailingListPrivacyPolicyURL' )
 		);
 
 		$out->enableOOUI();

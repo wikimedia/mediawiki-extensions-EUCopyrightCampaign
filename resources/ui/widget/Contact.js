@@ -217,9 +217,9 @@
 			var issue = this.issues[ idx ];
 			issueSelectorItems.push(
 				new eucc.ui.CheckboxMultioptionTextWidget( {
-					data: mw.message( issue.labelKey ).escaped(),
-					label: mw.message( issue.labelKey ).escaped(),
-					contentText: mw.message( issue.textKey ).escaped(),
+					data: mw.message( issue.labelKey ).text(),
+					label: mw.message( issue.labelKey ).text(),
+					contentText: mw.message( issue.textKey ).text(),
 					selected: first || false
 				} )
 			);
@@ -247,7 +247,7 @@
 		this.newsletterCheckbox.on( 'change', this.onInputChange.bind( this ) );
 
 		var ibmWatsonLink = "<a href='##IBM_WATSON_URL##'>##IBM_WATSON_LABEL##</a>";
-		ibmWatsonLink = ibmWatsonLink.replace( '##IBM_WATSON_URL##', mw.config.get( 'euccPrivacyPolicyURL' ) );
+		ibmWatsonLink = ibmWatsonLink.replace( '##IBM_WATSON_URL##', mw.config.get( 'euccMailingListPrivacyPolicyURL' ) );
 		ibmWatsonLink = ibmWatsonLink.replace(
 			'##IBM_WATSON_LABEL##',
 			mw.message( 'eucc-email-privacy-policy-label'
@@ -379,7 +379,9 @@
 		this.addParagraph( secondPart );
 		this.addParagraph( outro );
 		this.addParagraph( complimentaryClose );
-		this.addParagraph( this.emailInput.getValue() );
+		this.addParagraph( this.firstNameInput.getValue() + ' ' +
+			this.lastNameInput.getValue() + ' (' + this.emailInput.getValue() +
+			')' );
 
 		// When text is compiled, form is considered clean
 		this.dirty = false;
@@ -414,7 +416,7 @@
 		}
 		this.windowManager.openWindow( this.callDialog )
 			.closed.then( this.onDialogClose.bind( this ) );
-		this.emit( 'dialogOpened' );
+		this.emit( 'dialogOpened', 'call' );
 	};
 
 	eucc.ui.ContactWidget.prototype.openTweetDialog = function() {
@@ -428,7 +430,7 @@
 		}
 		this.windowManager.openWindow( this.twitterDialog )
 			.closed.then( this.onDialogClose.bind( this ) );
-		this.emit( 'dialogOpened' );
+		this.emit( 'dialogOpened', 'tweet' );
 	};
 
 	eucc.ui.ContactWidget.prototype.openMailDialog = function() {
@@ -442,7 +444,7 @@
 
 		this.windowManager.openWindow( this.mailDialog )
 			.closed.then( this.onDialogClose.bind( this ) );
-		this.emit( 'dialogOpened' );
+		this.emit( 'dialogOpened', 'mail' );
 	};
 
 	eucc.ui.ContactWidget.prototype.onDialogClose = function( data ) {

@@ -2,7 +2,8 @@
 	"name": "EUCopyrightCampaign",
 	"author": [
 		"Robert Vogel",
-		"Dejan Savuljesku"
+		"Dejan Savuljesku",
+		"Hallo Welt! GmbH"
 	],
 	"url": "https://www.wikimedia.org",
 	"descriptionmsg": "eucopyrightcampaign-desc",
@@ -139,7 +140,7 @@
 		"NewsletterSubmitTarget": {
 			"value": "https://www.pages04.net/wikimedia/20180828_fixcopyright/Form"
 		},
-		"PrivacyPolicyURL": {
+		"MailingListPrivacyPolicyURL": {
 			"value": "https://www.ibm.com/privacy/details/us/en/privacy_shield.html"
 		}
 	},

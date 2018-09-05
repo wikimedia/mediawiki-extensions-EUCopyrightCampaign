@@ -116,13 +116,12 @@
 
 	eucc.ContactMEP.prototype.onContactActionDone = function() {
 		this.showThankYou();
-		// At this point we dont know if user has gotten here using
-		// email or one of the other options. There is no guarantee
-		// that email will be entered or correct
-		this.submitNewsletterSubscription();
 	};
 
-	eucc.ContactMEP.prototype.onDialogOpened = function() {
+	eucc.ContactMEP.prototype.onDialogOpened = function( type ) {
+		if( type === 'mail' ) {
+			this.submitNewsletterSubscription();
+		}
 		this.insertTracking();
 	};
 
