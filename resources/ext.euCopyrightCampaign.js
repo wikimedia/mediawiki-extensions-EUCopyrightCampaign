@@ -8,6 +8,7 @@
 		this.selectedCountry = {};
 		this.selectedRepresentative = {};
 
+		this.trackingInserted = false;
 		this.selectionLayout = new OO.ui.HorizontalLayout();
 		this.selectionLayout.$element.addClass( 'eucc-selection-layout' );
 
@@ -192,6 +193,9 @@
 	};
 
 	eucc.ContactMEP.prototype.insertTracking = function() {
+		if( this.trackingInserted ) {
+			return;
+		}
 		var userData = this.contactWidget.getUserInfo();
 		var selectedIssueTitles = [];
 		for( var idx in userData.selectedIssues ) {
@@ -208,6 +212,7 @@
 		};
 
 		mw.track( 'event.EUCCStats', trackData );
+		this.trackingInserted = true;
 	};
 
 	var form = new eucc.ContactMEP();
