@@ -55,8 +55,11 @@
 		var messageForTwitter = mw.message(
 			"eucc-share-tweet-text",
 			"#fixcopyright",
-			" \u{1F449} fixcopyright.wikimedia.org"
+			"fixcopyright.wikimedia.org"
 		).text();
+
+		// Removed \u{1F449} from message that actually goes out to Twitter
+		// IE crashes on it, if escaped, emoji won't show in the tweet
 
 		var twitterPostURL = "https://twitter.com/intent/tweet?button_hashtag=fixcopyright&ref_src=twsrc%5Etfw&text=";
 		twitterPostURL += encodeURIComponent( messageForTwitter );

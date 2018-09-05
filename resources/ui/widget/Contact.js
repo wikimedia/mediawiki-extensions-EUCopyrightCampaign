@@ -426,15 +426,14 @@
 	};
 
 	eucc.ui.ContactWidget.prototype.openMailDialog = function() {
-		if( !this.mailDialog ) {
-			this.mailDialog = new eucc.ui.dialog.Mail( {
-				representative: this.representative,
-				emailText: this.getCompiledText(),
-				emailTextForEmailClient: this.getTextForEmailClient(),
-				size: 'large'
-			} );
-			this.windowManager.addWindows( [ this.mailDialog ] );
-		}
+		this.mailDialog = new eucc.ui.dialog.Mail( {
+			representative: this.representative,
+			emailText: this.getCompiledText(),
+			emailTextForEmailClient: this.getTextForEmailClient(),
+			size: 'large'
+		} );
+		this.windowManager.addWindows( [ this.mailDialog ] );
+
 		this.windowManager.openWindow( this.mailDialog )
 			.closed.then( this.onDialogClose.bind( this ) );
 		this.emit( 'dialogOpened' );
