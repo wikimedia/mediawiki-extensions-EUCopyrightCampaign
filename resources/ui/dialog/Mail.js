@@ -53,7 +53,7 @@
 			'eucc-mail-dialog-target-rep',
 			this.representative.fullName,
 			this.representative.email
-		).text();
+		).escaped();
 		targetRepMessage = targetRepMessage.replace(
 			this.representative.email,
 			'<span>' + this.representative.email + '</span>'

@@ -76,9 +76,10 @@
 	};
 
 	eucc.ui.dialog.Call.prototype.makePhonePill = function( phone ) {
-		var phoneStripped = phone.replace( new RegExp( '[\(\)\s]', 'g' ), '' );
+		var phoneEscaped = mw.html.escape( phone );
+		var phoneStripped = phoneEscaped.replace( /[\(\)\s]/g, '' );
 		var phoneLink = '<a href="tel:##PHONE_STRIPPED##">##PHONE##</a>';
-		phoneLink = phoneLink.replace( new RegExp( '##PHONE##', 'g' ), phone );
+		phoneLink = phoneLink.replace( new RegExp( '##PHONE##', 'g' ), phoneEscaped );
 		phoneLink = phoneLink.replace( new RegExp( '##PHONE_STRIPPED##', 'g' ), phoneStripped );
 
 		var phonePill = new OO.ui.HorizontalLayout( {

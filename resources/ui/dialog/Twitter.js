@@ -78,7 +78,9 @@
 		var url = "https://twitter.com/intent/tweet?text=##TEXT##";
 		url = url.replace( '##TEXT##', tweetText );
 
-		var tweetWin = window.open( url, '_blank' );
+		var tweetWin = window.open();
+		tweetWin.opener = null
+		tweetWin.location = url;
 		tweetWin.focus();
 	};
 
