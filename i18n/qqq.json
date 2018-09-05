@@ -27,7 +27,7 @@
 	"eucc-email-outro-v3": "Email text appearing at the end of the email, before complimentary close - variation 3",
 	"eucc-email-part-two": "Seconds part of static email text, showing after issue selection.",
 	"eucc-email-complimentary-close": "Complimentary close text in the email",
-	"eucc-email-newsletter-label": "Label for checkbox that subscribes user to wikimedia mailing list",
+	"eucc-email-newsletter-label": "Label for checkbox that subscribes user to wikimedia mailing list. $1 - link to IBM Watson privacy policy",
 	"eucc-email-privacy-policy-label": "Label for link to wikimedia privacy policy",
 	"eucc-email-first-name-input-placeholder": "Placeholder for first name input",
 	"eucc-email-last-name-input-placeholder": "Placeholder for last name input",

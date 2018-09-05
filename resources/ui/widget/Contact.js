@@ -246,20 +246,26 @@
 		} );
 		this.newsletterCheckbox.on( 'change', this.onInputChange.bind( this ) );
 
+		var ibmWatsonLink = "<a href='##IBM_WATSON_URL##'>##IBM_WATSON_LABEL##</a>";
+		ibmWatsonLink = ibmWatsonLink.replace( '##IBM_WATSON_URL##', mw.config.get( 'euccPrivacyPolicyURL' ) );
+		ibmWatsonLink = ibmWatsonLink.replace(
+			'##IBM_WATSON_LABEL##',
+			mw.message( 'eucc-email-privacy-policy-label'
+		).escaped() );
+
+		var label = mw.message( 'eucc-email-newsletter-label' ).escaped();
+		label = label.replace( '$1', ibmWatsonLink );
+
 		this.newsletterLabel = new OO.ui.LabelWidget( {
-			label: mw.message( 'eucc-email-newsletter-label' ).text(),
+			label: new OO.ui.HtmlSnippet( '<span>' + label + '</span>' ),
 			input: this.newsletterCheckbox
 		} );
-		this.$privacyPolicyLink = $( '<a>' )
-			.attr( 'href', mw.config.get( 'euccPrivacyPolicyURL' ) )
-			.html( mw.message( 'eucc-email-privacy-policy-label' ).escaped() );
 
 		this.$newsletterContainer = $( '<div>' )
 			.addClass( 'eucc-email-newsletter-container' )
 			.append(
 				this.newsletterCheckbox.$element,
-				this.newsletterLabel.$element,
-				this.$privacyPolicyLink
+				this.newsletterLabel.$element
 			);
 	};
 
