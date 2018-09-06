@@ -170,8 +170,8 @@
 
 		// Not exactly the cleanest solution, doing double replacement, but i still think
 		// its better than having complicated string operations
-		userInfo = userInfo.replace( '##FIRST_NAME##', '<input name="first_name">' );
-		userInfo = userInfo.replace( '##LAST_NAME##', '<input name="last_name">' );
+		userInfo = userInfo.replace( '##FIRST_NAME##', '<label class="label-first-name" for="first_name"></label><input id="first_name" name="first_name">' );
+		userInfo = userInfo.replace( '##LAST_NAME##', '<label class="label-last-name" for="last_name"></label><input id="last_name" name="last_name">' );
 
 		firstPart = mw.message( this.firstPartMessageKey ).escaped();
 		preIssueText = mw.message( 'eucc-email-issues-intro' ).escaped();
@@ -193,33 +193,39 @@
 			new OO.ui.HtmlSnippet( '<p>' + outro + '</p>').toString(),
 			new OO.ui.HtmlSnippet( '<p>' + complimentaryClose + '</p>').toString(),
 			this.emailInput.$element,
+			this.emailInput.input.$element,
 			this.$newsletterContainer
 		);
 
-		this.$textContainer.find( 'input[name="first_name"]' ).replaceWith( this.firstNameInput.$element );
-		this.$textContainer.find( 'input[name="last_name"]' ).replaceWith( this.lastNameInput.$element );
+		this.$textContainer.find( '#first_name' ).replaceWith( this.firstNameInput.$element );
+		this.$textContainer.find( '#last_name' ).replaceWith( this.lastNameInput.$element );
+
+		this.$textContainer.find( '.label-first-name' ).text( mw.message( 'eucc-email-first-name-input-placeholder' ) );
+		this.$textContainer.find( '.label-last-name' ).text( mw.message( 'eucc-email-last-name-input-placeholder' ) );
 
 		this.$textContainerOuter.append( this.$textContainer );
 	};
 
 	eucc.ui.ContactWidget.prototype.makeInputs = function() {
 		this.firstNameInput = new OO.ui.TextInputWidget( {
-			placeholder: mw.message( 'eucc-email-first-name-input-placeholder' ).text(),
+			name: 'first_name',
 			required: true,
-			name: 'first_name'
+			placeholder: mw.message( 'eucc-email-first-name-input-placeholder' ).text(),
+			inputId: 'first_name'
 		} );
 		this.firstNameInput.on( 'change', this.onInputChange.bind( this ) );
 		this.lastNameInput = new OO.ui.TextInputWidget( {
-			placeholder: mw.message( 'eucc-email-last-name-input-placeholder' ).text(),
+			name: 'last_name',
 			required: true,
-			name: 'last_name'
+			placeholder: mw.message( 'eucc-email-last-name-input-placeholder' ).text(),
+			inputId: 'last_name'
 		} );
 		this.lastNameInput.on( 'change', this.onInputChange.bind( this ) );
 		this.customTextWidget = new OO.ui.MultilineTextInputWidget( {
 			autosize: true,
+			classes: [ 'eucc-multiline-text-input' ],
 			placeholder: mw.message( 'eucc-email-custom-text-placeholder' ).text(),
 		} );
-		this.customTextWidget.$element.addClass( 'eucc-multiline-text-input' );
 		this.customTextWidget.on( 'change', this.onInputChange.bind( this ) );
 
 		var issueSelectorItems = [];
@@ -228,9 +234,9 @@
 			var issue = this.issues[ idx ];
 			issueSelectorItems.push(
 				new eucc.ui.CheckboxMultioptionTextWidget( {
-					data: mw.message( issue.labelKey ).text(),
-					label: mw.message( issue.labelKey ).text(),
-					contentText: mw.message( issue.textKey ).text(),
+					data: mw.message( issue.labelKey ).escaped(),
+					label: mw.message( issue.labelKey ).escaped(),
+					contentText: mw.message( issue.textKey ).escaped(),
 					selected: first || false
 				} )
 			);
@@ -241,13 +247,17 @@
 		} );
 		this.issueSelector.on( 'change', this.onInputChange.bind( this ) );
 
-		this.emailInput = new OO.ui.TextInputWidget( {
-			type: 'email',
-			name: 'email',
-			required: true,
-			placeholder: mw.message( 'eucc-email-email-input-placeholder' ).text(),
+		this.emailInput = new OO.ui.LabelWidget( {
+			label: mw.message( 'eucc-email-email-input-placeholder' ).text(),
+			classes: [ 'label-email' ],
+			input: new OO.ui.TextInputWidget( {
+				name: 'email',
+				type: 'email',
+				required: true,
+				placeholder: mw.message( 'eucc-email-email-input-placeholder' ).text()
+			} )
 		} );
-		this.emailInput.on( 'change', this.onInputChange.bind( this ) );
+		this.emailInput.input.on( 'change', this.onInputChange.bind( this ) );
 	};
 
 	eucc.ui.ContactWidget.prototype.makeNewsletterContainer = function() {
@@ -310,7 +320,7 @@
 		var inputsToValidate = [
 			this.firstNameInput,
 			this.lastNameInput,
-			this.emailInput
+			this.emailInput.input
 		];
 
 		this.validateInternaly( inputsToValidate, dfd );
@@ -339,7 +349,7 @@
 		return {
 			firstName: this.firstNameInput.getValue(),
 			lastName: this.lastNameInput.getValue(),
-			emailAddress: this.emailInput.getValue(),
+			emailAddress: this.emailInput.input.getValue(),
 			country: this.country,
 			newsletterSignup: this.newsletterCheckbox.isSelected(),
 			emailText: this.getCompiledText(),
@@ -391,7 +401,7 @@
 		this.addParagraph( outro );
 		this.addParagraph( complimentaryClose );
 		this.addParagraph( this.firstNameInput.getValue() + ' ' +
-			this.lastNameInput.getValue() + ' (' + this.emailInput.getValue() +
+			this.lastNameInput.getValue() + ' (' + this.emailInput.input.getValue() +
 			')' );
 
 		// When text is compiled, form is considered clean

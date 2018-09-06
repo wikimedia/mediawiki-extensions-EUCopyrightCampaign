@@ -1,3 +1,5 @@
+@import 'mediawiki.mixins';
+
 #eucc-form-container {
 	.eeuc-process-layout {
 		width: 100%;
@@ -219,13 +221,19 @@
 	}
 }
 
+.label-first-name,
+.label-last-name,
+.label-email {
+	.mixin-screen-reader-text();
+}
+
 // Country picker
 .eucc-country-picker-widget.oo-ui-iconElement .oo-ui-iconElement-icon {
 	background-size: auto;
 	min-width: 23px; // Flags are 23 x 14px
 }
 
-/*Dialogs*/
+// Dialogs
 .eucc-mail-dialog {
 	.oo-ui-processDialog-actions-other {
 		.oo-ui-buttonElement-frameless {
