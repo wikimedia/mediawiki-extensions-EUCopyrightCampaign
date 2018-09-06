@@ -211,22 +211,27 @@
 							}
 						}
 					}
-					.oo-ui-buttonWidget {
-					}
 				}
 			}
 		}
 	}
 }
 
+// Country picker
+.eucc-country-picker-widget.oo-ui-iconElement .oo-ui-iconElement-icon {
+	background-size: auto;
+	min-width: 23px; // Flags are 23 x 14px
+}
+
+
 /*Dialogs*/
 .eucc-mail-dialog {
 	.oo-ui-processDialog-actions-other {
 		.oo-ui-buttonElement-frameless {
 			&:focus {
-				box-shadow: none;
-				border: none;
 				-webkit-box-shadow: none;
+				box-shadow: none;
+				border: 0;
 			}
 		}
 	}
