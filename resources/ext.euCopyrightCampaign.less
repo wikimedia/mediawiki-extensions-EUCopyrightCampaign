@@ -1,5 +1,5 @@
 #eucc-form-container {
-	.eeuc-process-layout{
+	.eeuc-process-layout {
 		width: 100%;
 		.eucc-selection-layout {
 			margin-bottom: 25px;
@@ -39,13 +39,13 @@
 					}
 				}
 				.eucc-contact-text-container-outer {
-					background-color: white;
+					background-color: #fff;
 					overflow: auto;
 					margin-bottom: 20px;
 				}
 				.eucc-contact-text-container {
 					margin: 20px;
-					outline: none;
+					outline: 0;
 					line-height: 1.6em;
 					p:first-child {
 						margin-bottom: 30px;
@@ -57,13 +57,15 @@
 						width: 150px;
 						display: inline-block;
 						margin-left: 5px;
-						input, textarea {
+
+						input,
+						textarea {
 							height: 20px;
-							border: none;
+							border: 0;
 							padding: 0;
 							border-bottom: 2px solid #bfbfbf;
 							&:focus {
-								outline: none;
+								outline: 0;
 								-webkit-box-shadow: none;
 								box-shadow: none;
 							}
@@ -80,7 +82,7 @@
 						}
 						&.oo-ui-flaggedElement-invalid {
 							input {
-								border-bottom: 2px solid red;
+								border-bottom: 2px solid #f00;
 							}
 						}
 					}
@@ -89,7 +91,7 @@
 					}
 					.eucc-multiline-text-input {
 						width: 100%;
-						margin: 0px;
+						margin: 0;
 						textarea {
 							height: 60px;
 						}
@@ -128,18 +130,18 @@
 				.oo-ui-buttonElement-frameless {
 					&:focus {
 						box-shadow: none;
-						border: none;
+						border: 0;
 						-webkit-box-shadow: none;
 					}
 				}
 				.oo-ui-horizontalLayout {
 					.oo-ui-buttonElement-frameless {
 						&:before {
-							content: "\02022";
-								vertical-align: middle;
-								margin-right: 10px;
-								margin-left: 10px;
-								color: #5f5f5f;
+							content: '\02022';
+							vertical-align: middle;
+							margin-right: 10px;
+							margin-left: 10px;
+							color: #5f5f5f;
 						}
 					}
 				}
@@ -157,14 +159,14 @@
 			background-color: #fff;
 			overflow: auto;
 			.eucc-thank-you-icon {
-				margin: 40px 0px 20px 20px;
+				margin: 40px 0 20px 20px;
 				display: inline-block;
 				vertical-align: top;
 				width: 50px;
 				text-align: right;
 				.oo-ui-icon-eucc-check {
 					/* @embed */
-					background-image: url('images/checkmark-done.svg');
+					background-image: url( images/checkmark-done.svg );
 					width: 50px;
 					height: 35px;
 				}
@@ -178,7 +180,7 @@
 					display: block;
 					font-size: 1.2em;
 					font-weight: bold;
-					color: #00AF89;
+					color: #00af89;
 					margin-bottom: 5px;
 				}
 				.eucc-thank-you-text {
@@ -223,7 +225,6 @@
 	min-width: 23px; // Flags are 23 x 14px
 }
 
-
 /*Dialogs*/
 .eucc-mail-dialog {
 	.oo-ui-processDialog-actions-other {
@@ -259,14 +260,14 @@
 		.oo-ui-textInputWidget {
 			margin-bottom: 30px;
 		}
-		textarea[readonly] {
+		textarea[ readonly ] {
 			resize: none;
 			background-color: #fff;
 		}
 		.eucc-copy-to-clipboard-status {
 			margin-bottom: 10px;
 			font-size: 0.8em;
-			color: grey;
+			color: #808080;
 		}
 	}
 }
@@ -296,7 +297,7 @@
 		}
 		.eucc-call-dialog-phone-pill {
 			padding: 10px;
-			background-color: #EAF3FF;
+			background-color: #eaf3ff;
 			width: auto;
 			height: 25px;
 			margin-top: 5px;
@@ -304,7 +305,7 @@
 			display: inline-block;
 			span.oo-ui-iconWidget.oo-ui-icon-call {
 				/* @embed */
-				background-image: url('images/call.svg');
+				background-image: url( images/call.svg );
 				margin-left: 10px;
 			}
 			label {
