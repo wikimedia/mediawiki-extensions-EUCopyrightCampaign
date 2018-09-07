@@ -39,23 +39,16 @@ class GetRepresentatives extends \ApiBase {
 	protected function getSortedRepresentatives() {
 		$rawData = $this->readIntoFile();
 
-		$primaryReps = [];
-		$secondaryReps = [];
+		$representatives = [];
 		foreach ( $rawData as $representative ) {
 			$representative->fullName =
 				$representative->firstName . ' ' . $representative->lastName;
 
-			// DUMMY CONDITION - REPLACE WITH REAL ONE
-			if ( $representative->membershipInDelegations !== '' ) {
-				$primaryReps[] = $representative;
-			} else {
-				$secondaryReps[] = $representative;
-			}
+			$representatives[] = $representative;
 		}
 
-		shuffle( $primaryReps );
-		shuffle( $secondaryReps );
-		$this->representatives = $primaryReps + $secondaryReps;
+		shuffle( $representatives );
+		$this->representatives = $representatives;
 	}
 
 	/**
