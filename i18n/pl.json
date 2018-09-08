@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps"
+		]
+	},
+	"eucc-contact-button-send-mail-label": "Wyślij e‐mail",
+	"eucc-email-complimentary-close": "Z poważaniem,",
+	"eucc-email-first-name-input-placeholder": "Imię",
+	"eucc-email-last-name-input-placeholder": "Nazwisko",
+	"eucc-email-email-input-placeholder": "Adres e‐mail",
+	"eucc-thank-you-header": "Dziękujemy!",
+	"eucc-contact-button-call-short-label": "Telefon",
+	"eucc-mail-dialog-target-rep": "$1 $2"
+}

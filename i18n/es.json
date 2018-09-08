@@ -2,9 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Robert Vogel",
-			"Dejan Savuljesku"
+			"Dejan Savuljesku",
+			"Jelou"
 		]
 	},
+	"contactyourmep": "Contacta con tu eurodiputado",
+	"contactyourmep-desc": "Añade el contacto de tu eurodiputado a tu formulario",
+	"eucopyrightcampaign-desc": "Extensión que permite a los ciudadanos de la UE ponerse en contacto con sus representantes",
+	"apihelp-eucc-get-representatives-summary": "Recupera la lista de representantes de un país determinado",
+	"apihelp-eucc-get-representatives-param-country": "Especifica el país para obtener una lista de sus representantes",
 	"eucc-country-picker-layout-label": "1. Encuentra a tu representante",
 	"eucc-country-picker-placeholder": "Selecciona tu país",
 	"eucc-representative-picker-layout-label": "Selecciona tu representante",
@@ -13,18 +19,14 @@
 	"eucc-contact-button-send-mail-label": "Generar correo electrónico",
 	"eucc-email-greeting": "Estimado $1:",
 	"eucc-email-user-info": "Mi nombre es $1 $2 y vivo en $3.",
-
 	"eucc-email-part-one-v1": "Le escribo para compartir con usted mi apoyo a un marco de derechos de autor con visión de futuro que promueva la capacidad de todos para comunicarse libremente en línea y participar en la creación y recopilación de conocimientos. Quiero destacar la oportunidad que tiene de asegurarse de que la legislación de la UE en materia de derechos de autor esté a la altura de la era digital.",
 	"eucc-email-part-one-v2": "Le escribo hoy para expresar mi apoyo a un marco europeo de derechos de autor que garantice que todos los ciudadanos de la UE puedan comunicarse libremente en línea y colaborar para recopilar y compartir conocimientos. Este es un momento único en el que su voto puede garantizar que la legislación europea en materia de derechos de autor refleje el mundo en el que los ciudadanos europeos ya viven en línea.",
 	"eucc-email-part-one-v3": "Hoy escribo para apoyar un marco de derechos de autor para Europa que respete el derecho de todos a recopilar, crear y compartir conocimientos con el mundo. Esta próxima votación es una oportunidad para que usted y sus colegas en el Parlamento reconozcan las realidades de la era digital y armonicen nuestra ley de derechos de autor para que coincida con dichas realidades.",
-
 	"eucc-email-issues-intro": "Hay algunas cosas sencillas que Wikipedia y yo apoyamos para la iniciativa #fixcopyright:",
 	"eucc-email-part-two": "Por último, le insto a que considere estas mejoras a los derechos de autor sin imponer restricciones adicionales. No debería haber obligaciones de prefiltrado para los proveedores de plataformas, ya que fundamentalmente convertirán Internet en un medio en el que la gente solo puede comunicarse después de recibir el permiso de una empresa. Esto dañará la cultura de compartir que es necesaria para que Wikipedia crezca y prospere.",
-
 	"eucc-email-outro-v1": "Le agradecería que tuviera en cuenta estos importantes temas cuando emita su voto sobre la propuesta de derechos de autor. Espero que promueva el acceso de sus electores al conocimiento y apoye normas que permitan a todos ser creadores.",
 	"eucc-email-outro-v2": "Gracias por su atención con respecto a todos estos asuntos. Espero que tenga en cuenta mi perspectiva y la del resto de electores cuando vote las enmiendas a la propuesta de derechos de autor, y que apoye el acceso al conocimiento y la creación en línea para todos.",
 	"eucc-email-outro-v3": "Gracias por tomarse el tiempo para considerar estos temas antes de la próxima votación sobre derechos de autor. Espero que compartir mi punto de vista le haya ayudado a ver cómo las normas sobre derechos de autor afectan al acceso de sus electores al conocimiento y a la capacidad de participar en la creación en línea.",
-
 	"eucc-email-complimentary-close": "Atentamente,",
 	"eucc-email-newsletter-label": "Deseo recibir actualizaciones por correo electrónico sobre cómo apoyar Wikimedia. (Puedes cancelar la suscripción a qualquier tiempo. Esta lista es operada por $1.)",
 	"eucc-email-privacy-policy-label": "IBM Watson",
@@ -32,27 +34,22 @@
 	"eucc-email-last-name-input-placeholder": "Apellido",
 	"eucc-email-custom-text-placeholder": "Opcional: comparte una actividad en línea que realices con frecuencia (por ejemplo, enviar mensajes, publicar fotos o editar Wikipedia).",
 	"eucc-email-email-input-placeholder": "Dirección de correo electrónico",
-
 	"eucc-option-protect-public-domain-label": "Proteger el dominio público",
 	"eucc-option-protect-public-domain-text-v1": "La UE debe proteger el dominio público y garantizar que todos los europeos puedan disfrutar de él, tanto en línea como en el mundo real. Wikipedia utiliza muchas obras que son de dominio público, como las pinturas impresionistas o los primeros mapas del mundo, para ilustrar artículos.",
 	"eucc-option-protect-public-domain-text-v2": "El Parlamento Europeo debe garantizar que todo el mundo pueda disfrutar de las obras de dominio público en línea, al igual que en persona. Las obras de dominio público enriquecen el acervo mundial de conocimiento y cultura, haciendo que proyectos educativos como Wikipedia sean aún más útiles.",
 	"eucc-option-protect-public-domain-text-v3": "Una excepción de dominio público de sentido común para las copias virtuales de obras de dominio público en toda la UE reducirá la incertidumbre sobre la digitalización y permitirá a los ciudadanos de todo el continente y del mundo participar en la rica historia cultural de Europa. Los artículos de Wikipedia sobre arte, historia e incluso cartografía están ilustrados con imágenes de dominio público que permiten a los usuarios no solo leer sobre estos temas, sino también verlos.",
-
 	"eucc-option-freedom-of-panorama-label": "Libertad de panorama",
 	"eucc-option-freedom-of-panorama-text-v1": "Todos los que lean Wikipedia también se beneficiarían enormemente de una mayor disponibilidad de fotografías de edificios y paisajes urbanos que puedan compartirse gratuitamente en línea. La legislación europea sobre derechos de autor no debería incluir una excepción para las fotografías de arquitectura y obras esculpidas en espacios públicos.",
 	"eucc-option-freedom-of-panorama-text-v2": "Asimismo, la UE debería velar por que todos, independientemente del lugar en que vivan, puedan compartir en línea fotografías de obras de arte y edificios públicos. Limitar la Libertad de panorama solo perjudicará a proyectos como Wikipedia, que tiene una serie de artículos educativos sobre arquitectura y arte público.",
 	"eucc-option-freedom-of-panorama-text-v3": "Los ciudadanos y los visitantes de los Estados miembros son libres de disfrutar de las importantes obras de arte públicas y de la hermosa arquitectura de Europa, pero en muchos países esa libertad no incluye la libertad de compartir imágenes de esos lugares en línea. Una ley de derechos de autor que abarque la actividad cotidiana de compartir fotografías de espacios públicos en línea ayudará a armonizar la normativa de la UE con la forma en que la gente utiliza Internet hoy en día.",
-
 	"eucc-option-exception-for-ucg-label": "Excepción para el contenido generado por el usuario",
 	"eucc-option-exception-for-ucg-text-v1": "Nuestra ley también debe ponerse al día con la realidad y asegurarse de que las formas en que nos comunicamos en línea, mediante el intercambio de vídeos, la creación de memes y la vinculación a artículos de noticias, no estén prohibidas o restringidas de forma indebida.",
 	"eucc-option-exception-for-ucg-text-v2": "Además, los ciudadanos de la UE comparten y crean contenidos generados por los usuarios casi todos los días, y nuestra nueva ley de derechos de autor debería reflejarlo. Todo el mundo debería tener la libertad de compartir vídeos, crear memes y enlazar artículos de noticias sin restricciones indebidas.",
 	"eucc-option-exception-for-ucg-text-v3": "La legislación de la UE en materia de derechos de autor debería reflejar la forma en que las personas se comunican hoy en día en línea y crear excepciones a los contenidos generados por los usuarios, como memes, vídeos y enlaces a artículos de noticias.",
-
 	"eucc-option-exception-for-text-and-data-mining-label": "Excepciones a la explotación de textos y datos",
 	"eucc-option-exception-for-text-and-data-mining-text-v1": "Las amplias excepciones para la explotación de textos y datos permitirán que todo el que tenga un ordenador obtenga nuevos conocimientos a partir de los datos a los que tienen acceso legal, de modo que todos puedan contribuir al avance de la ciencia y la investigación.",
 	"eucc-option-exception-for-text-and-data-mining-text-v2": "La explotación de textos y datos no debe limitarse a ciertas instituciones o para ciertos propósitos. Cualquiera debería ser capaz de utilizar los datos a los que tiene acceso legal para obtener nuevos conocimientos sobre el mundo que nos rodea.",
 	"eucc-option-exception-for-text-and-data-mining-text-v3": "La UE perderá la oportunidad de capacitar a sus ciudadanos para participar en la ciencia y la investigación si limita la explotación de textos y datos a determinadas instituciones y para determinados fines. Todo el mundo debería tener la capacidad de llevar a cabo investigaciones y aportar sus conocimientos a la suma de todos los conocimientos.",
-
 	"eucc-call-representative-phone-brussels": "Bruselas",
 	"eucc-call-representative-phone-strasbourg": "Estrasburgo",
 	"eucc-call-script-label": "Guion de la llamada",
@@ -64,13 +61,14 @@
 	"eucc-share-tweet-button-label": "Tuitear",
 	"eucc-copy-to-clipboard-success": "Correo electrónico copiado al portapapeles",
 	"eucc-copy-to-clipboard-fail": "El correo electrónico no se puede copiar en el portapapeles",
-
+	"eucc-restart-label": "Para ponerte en contacto con otro representante de tu país, haz clic en ##RELOAD_LINK##",
+	"eucc-learn-more": "Para obtener más información sobre el movimiento de Wikimedia, nuestra postura sobre los derechos de autor de la UE, y de qué otra manera puedes ayudar, mira nuestra ##INFO PAGE##.",
 	"eucc-contact-button-call-short-label": "Llamar",
 	"eucc-contact-button-tweet-short-label": "Tuitear",
 	"eucc-contact-button-call-label": "Llamar a tu representante",
 	"eucc-contact-button-tweet-label": "Tuitear $1",
 	"eucc-contact-top-alternatives-text": "Por favor llenar el formulario para generar el correo electrónico para mandar a tu representante.  También puedes $1 o $2 a tu representante.",
-	"eucc-contact-button-generate-mail-label": "Generar correo electrónico. ",
+	"eucc-contact-button-generate-mail-label": "Generar correo electrónico.",
 	"eucc-dialog-mark-as-done-label": "Marcar como completado",
 	"eucc-mail-dialog-copy-text-label": "Copiar el texto",
 	"eucc-mail-dialog-send-mail-label": "Mandar un correo electrónico",

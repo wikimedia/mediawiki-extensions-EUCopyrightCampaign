@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"apihelp-eucc-get-representatives-summary": "Ανακτά ένα κατάλογο εκπροσόπων για μια χώρα",
+	"eucc-country-picker-layout-label": "1. Ας βρούμε τον εκπρόσωπό σας",
+	"eucc-email-first-name-input-placeholder": "Όνομα",
+	"eucc-option-freedom-of-panorama-label": "Ελευθερία πανοράματος",
+	"eucc-call-representative-phone-brussels": "Βρυξέλλες",
+	"eucc-contact-button-call-label": "Καλέστε τον εκπρόσωπό σας",
+	"eucc-mail-dialog-send-mail-label": "Αποστολή email"
+}
