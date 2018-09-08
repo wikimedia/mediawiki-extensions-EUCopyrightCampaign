@@ -129,19 +129,30 @@
 		this.$textContainer = $( '<div>' ).addClass( 'eucc-contact-text-container' );
 		this.$textContainerOuter = $( '<div>' ).addClass( 'eucc-contact-text-container-outer' );
 
+		// eucc-email-part-one-v1, eucc-email-part-one-v2, eucc-email-part-one-v3
 		this.firstPartMessageKey = this.pickVariation( 'eucc-email-part-one', 3 );
+		// eucc-email-outro-v1, eucc-email-outro-v2, eucc-email-outro-v3
 		this.outroMessageKey = this.pickVariation( 'eucc-email-outro', 3 );
 		this.issues = [ {
 				labelKey: 'eucc-option-protect-public-domain-label',
+				// eucc-option-protect-public-domain-text-v1, eucc-option-protect-public-domain-text-v2,
+				// eucc-option-protect-public-domain-text-v3
 				textKey: this.pickVariation( 'eucc-option-protect-public-domain-text', 3 )
 			},{
 				labelKey: 'eucc-option-freedom-of-panorama-label',
+				// eucc-option-freedom-of-panorama-text-v1, eucc-option-freedom-of-panorama-text-v2,
+				// eucc-option-freedom-of-panorama-text-v3
 				textKey: this.pickVariation( 'eucc-option-freedom-of-panorama-text', 3 )
 			},{
 				labelKey: 'eucc-option-exception-for-ucg-label',
+				// eucc-option-exception-for-ucg-text-v1, eucc-option-exception-for-ucg-text-v2,
+				// eucc-option-exception-for-ucg-text-v3
 				textKey: this.pickVariation( 'eucc-option-exception-for-ucg-text', 3 )
 			},{
 				labelKey: 'eucc-option-exception-for-text-and-data-mining-label',
+				// eucc-option-exception-for-text-and-data-mining-text-v1,
+				// eucc-option-exception-for-text-and-data-mining-text-v2,
+				// eucc-option-exception-for-text-and-data-mining-text-v3
 				textKey: this.pickVariation( 'eucc-option-exception-for-text-and-data-mining-text', 3 )
 			} ];
 
