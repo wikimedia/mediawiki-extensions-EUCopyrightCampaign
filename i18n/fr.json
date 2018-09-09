@@ -3,7 +3,8 @@
 		"authors": [
 			"Robert Vogel",
 			"Dejan Savuljesku",
-			"Gomoko"
+			"Gomoko",
+			"Wladek92"
 		]
 	},
 	"contactyourmep": "ContactYourMEP",
@@ -15,8 +16,6 @@
 	"eucc-country-picker-placeholder": "Sélectionnez votre pays",
 	"eucc-representative-picker-layout-label": "Sélectionnez votre représentant(e)",
 	"eucc-contact-layout-label": "2. Envoyez un e-mail à votre représentant(e)",
-	"eucc-contact-button-copy-mail-label": "Copier l'e-mail",
-	"eucc-contact-button-send-mail-label": "Générer l'e-mail",
 	"eucc-email-greeting": "Cher(e) $1,",
 	"eucc-email-user-info": "Je m'appelle $1 $2 et j'habite en $3.",
 	"eucc-email-part-one-v1": "Je vous écris pour partager avec vous mon soutien d'un cadre du droit d'auteur avant-gardiste qui promeut la capacité, pour toutes et tous, de communiquer librement en ligne et de participer à la création et à la quête de connaissance. Je souhaite insister sur l'occasion qui se présente à vous : celle de veiller à ce que la législation européenne sur le droit d'auteur soit à la mesure de l'ère numérique.",
@@ -45,7 +44,7 @@
 	"eucc-option-exception-for-ucg-label": "Exception pour les contenus générés par les utilisateurs",
 	"eucc-option-exception-for-ucg-text-v1": "Notre législation doit également être en phase avec la réalité et veiller à ce que la façon dont nous communiquons en ligne, en partageant des vidéos, en créant des mèmes et en publiant des liens vers des articles d'actualités, ne soit pas mise hors la loi ou excessivement limitée.",
 	"eucc-option-exception-for-ucg-text-v2": "En outre, les citoyens européens partagent et créent presque chaque jour du contenu généré par les utilisateurs, et notre nouvelle législation sur le droit d'auteur doit tenir compte de cette réalité. Tout le monde doit être libre de partager des vidéos, de créer des mèmes et de publier des liens vers des articles sans restrictions excessives.",
-	"eucc-option-exception-for-ucg-text-v3": " La législation européenne sur le droit d'auteur doit tenir compte de la façon dont les gens communiquent en ligne aujourd'hui et créer des exceptions pour le contenu généré par les utilisateurs comme les mèmes, les vidéos et les liens vers les articles.",
+	"eucc-option-exception-for-ucg-text-v3": "La législation européenne sur le droit d'auteur doit tenir compte de la façon dont les gens communiquent en ligne aujourd'hui et créer des exceptions pour le contenu généré par les utilisateurs comme les mèmes, les vidéos et les liens vers les articles d'actualité.",
 	"eucc-option-exception-for-text-and-data-mining-label": "Exceptions pour le l'exploration de texte et de données",
 	"eucc-option-exception-for-text-and-data-mining-text-v1": "Des exceptions étendues pour l'exploration de texte et de données permettront à quiconque est équipé d'un ordinateur d'obtenir de nouvelles informations à partir de données auxquelles ils ont légalement accès, afin que tout le monde puisse contribuer à l'avancement de la science et de la recherche.",
 	"eucc-option-exception-for-text-and-data-mining-text-v2": "L'exploration de texte et de données ne doit pas être limitée à certaines institutions ou à certaines fins. N'importe qui doit être en mesure d'utiliser les données auxquelles il a légalement accès pour obtenir de nouvelles informations sur le monde qui nous entoure.",
@@ -61,8 +60,6 @@
 	"eucc-share-tweet-button-label": "Envoyer un tweet",
 	"eucc-copy-to-clipboard-success": "E-mail copié dans le presse-papier",
 	"eucc-copy-to-clipboard-fail": "L'e-mail n'a pas pu être copié dans le presse-papier",
-	"eucc-restart-label": "Pour contacter un autre représentant de votre pays, veuillez cliquer ##RELOAD_LINK##",
-	"eucc-learn-more": "Pour en savoir plus sur le mouvement Wikimédia, notre position sur le droit d’auteur de l’Union Européenne, et comment vous pouvez nous aider autrement, voyez notre ##INFO PAGE##.",
 	"eucc-contact-button-call-short-label": "Téléphoner",
 	"eucc-contact-button-tweet-short-label": "Envoyer un tweet",
 	"eucc-contact-button-call-label": "Contacter votre représentant(e)",
@@ -76,7 +73,7 @@
 	"eucc-mail-dialog-top-label": "Votre e-mail est prêt à être envoyé",
 	"eucc-mail-dialog-target-rep": "$1 $2",
 	"eucc-call-dialog-title": "Téléphoner à votre représentant(e) Application",
-	"eucc-tweet-at-rep-default-text": "#fixcopyright Je soutiens un droit d’auteur en Europe qui respecte à la fois le droit de chacun à communiquer en ligne de manière efficace et le droit de collecter, créer, et partager son savoir avec le monde entier. fixcopyright.wikimedia.org",
+	"eucc-tweet-at-rep-default-text": "C'est le moment du #fixcopyright . Je soutiens un réseau de droit d’auteur en Europe qui respecte à la fois le droit de chacun à communiquer en ligne de manière efficace et le droit de collecter, créer, et partager son savoir avec le monde entier. fixcopyright.wikimedia.org",
 	"eucc-twitter-dialog-title": "Envoyer un tweet à @représentant(e)",
 	"eucc-contact-top-alternatives-only-phone-text": "Veuillez remplir le formulaire et générer l’e-mail destiné à votre représentant(e). Vous pouvez également $1 votre représentant(e)"
 }

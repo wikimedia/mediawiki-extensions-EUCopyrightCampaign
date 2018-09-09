@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patriccck"
+		]
+	},
+	"contactyourmep": "Kontaktovat Vašeho MEP",
+	"eucc-country-picker-placeholder": "Vyberte Vaši zemi",
+	"eucc-email-greeting": "Drahý/á $1,",
+	"eucc-email-user-info": "Jmenuji se $1 $2 a bydlím v $3.",
+	"eucc-email-complimentary-close": "S pozdravem,",
+	"eucc-email-first-name-input-placeholder": "Křestní jméno",
+	"eucc-email-last-name-input-placeholder": "Příjmení"
+}
