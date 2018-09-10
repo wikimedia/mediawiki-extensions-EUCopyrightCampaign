@@ -71,7 +71,7 @@
 	"eucc-mail-dialog-copy-text-label": "Copier le texte",
 	"eucc-mail-dialog-send-mail-label": "Envoyer l’e-mail",
 	"eucc-mail-dialog-title": "Envoyer un e-mail à votre représentant(e)",
-	"eucc-mail-dialog-top-label": "Votre e-mail est prêt à être envoyé",
+	"eucc-mail-dialog-top-label": "Votre e-mail est prêt à être envoyé.\n\nSi vous rencontrez un problème lorsque vous cliquez sur \"Envoyer l’e-mail\", utilisez \"Copier le texte\" afin de copier le contenu de l'e-mail, collez-le dans votre logiciel de messagerie et envoyez-le à:",
 	"eucc-mail-dialog-target-rep": "$1 $2",
 	"eucc-call-dialog-title": "Téléphoner à votre représentant(e)",
 	"eucc-tweet-at-rep-default-text": "C'est le moment du #fixcopyright . Je soutiens un réseau de droit d’auteur en Europe qui respecte à la fois le droit de chacun à communiquer en ligne de manière efficace et le droit de collecter, créer, et partager son savoir avec le monde entier. fixcopyright.wikimedia.org",

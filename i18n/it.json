@@ -73,7 +73,7 @@
 	"eucc-mail-dialog-copy-text-label": "Copia il testo",
 	"eucc-mail-dialog-send-mail-label": "Invia email",
 	"eucc-mail-dialog-title": "Scrivi all'eurodeputato/a che vuoi",
-	"eucc-mail-dialog-top-label": "La tua email è pronta per essere inviata",
+	"eucc-mail-dialog-top-label": "La tua email è pronta per essere inviata.\n\nSe riscontri un problema quando fai click su \"Invia email\", usa \"Copia testo\" per copiare il testo dell'email, incollalo nell'applicazione che usi per inviare le email, e inviala a:",
 	"eucc-mail-dialog-target-rep": "$1 $2",
 	"eucc-call-dialog-title": "Chiama l'eurodeputato/a che vuoi",
 	"eucc-tweet-at-rep-default-text": "È ora di correggere il diritto d'autore #fixcopyright. Io sostengo un quadro normativo europeo che rispetti il diritto di chiunque di comunicare efficacemente online e di raccogliere, creare e condividere la conoscenza con il resto del mondo. fixcopyright.wikimedia.org",

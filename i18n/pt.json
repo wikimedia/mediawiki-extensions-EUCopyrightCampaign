@@ -68,7 +68,7 @@
 	"eucc-mail-dialog-copy-text-label": "Copiar o texto",
 	"eucc-mail-dialog-send-mail-label": "Enviar correio electrónico",
 	"eucc-mail-dialog-title": "Enviar correio electrónico ao seu representante",
-	"eucc-mail-dialog-top-label": "A sua mensagem está pronta para ser enviada",
+	"eucc-mail-dialog-top-label": "A sua mensagem está pronta para ser enviada.\n\nSe encontrar algum problema ao pressionar \"Enviar correio eletrónico\", use \"Copiar texto\" para copiar o corpo da mensagem, cole-o na aplicação que usa para enviar correio eletrónico, e envie para:",
 	"eucc-mail-dialog-target-rep": "$1 $2",
 	"eucc-call-dialog-title": "Ligue ao seu representante",
 	"eucc-tweet-at-rep-default-text": "Esta é a hora de consertar a lei do direito de autor (#fixcopyright). Eu apoio um enquadramento europeu do direito de autor que respeita o direito de cada um de comunicar eficientemente na Internet, assim como recolher, criar e partilhar conhecimento com o mundo. fixcopyright.wikimedia.org",

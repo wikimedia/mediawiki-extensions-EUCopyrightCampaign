@@ -70,7 +70,7 @@
 	"eucc-mail-dialog-copy-text-label": "Copiar el texto",
 	"eucc-mail-dialog-send-mail-label": "Mandar un correo electrónico",
 	"eucc-mail-dialog-title": "Mandar correo electrónico a tu representante",
-	"eucc-mail-dialog-top-label": "Tu correo electrónico está listo para mandar",
+	"eucc-mail-dialog-top-label": "Tu correo electrónico está listo para mandar.\n\nSi encuentras un problema cuando haces click en \"Mandar un correo electrónico\", usa el \"Copiar el texto\" para copiar el cuerpo del mensaje, pégalo en tu aplicación de correo electrónico, y envía el mensaje a:",
 	"eucc-mail-dialog-target-rep": "$1 $2",
 	"eucc-call-dialog-title": "Llamar a tu representante",
 	"eucc-tweet-at-rep-default-text": "Es el momento de #fixcopyright. Apoyo un marco de derechos de autor para Europa que respete el derecho de todo el mundo a comunicarse en línea eficazmente, así como a recopilar, crear y compartir conocimientos con el mundo. fixcopyright.wikimedia.org",

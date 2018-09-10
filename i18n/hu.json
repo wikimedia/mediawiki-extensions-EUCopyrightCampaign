@@ -67,7 +67,7 @@
 	"eucc-mail-dialog-copy-text-label": "Szöveg másolása",
 	"eucc-mail-dialog-send-mail-label": "E-mail küldése",
 	"eucc-mail-dialog-title": "Írj e-mailt a képviselődnek",
-	"eucc-mail-dialog-top-label": "Az e-mail küldésre kész",
+	"eucc-mail-dialog-top-label": "Az e-mail küldésre kész.\n\nHa problémába ütközöl, amikor az „E-mail küldése” gombra kattintasz, használd a „Szöveg másolása” gombot az e-mail szövegének kimásolására, illeszd be az e-mail alkalmazásodba, és küldd el erre a címre:",
 	"eucc-mail-dialog-target-rep": "$1 $2",
 	"eucc-call-dialog-title": "Hívd fel a képviselődet",
 	"eucc-tweet-at-rep-default-text": "#fixcopyright Olyan európai szerzői jogot szeretnék, ami nem akadályozza, hanem segíti az embereket a hatékony internetes kommunikációban és a tudás összegyűjtésében, rendszerezésében és terjesztésében. fixcopyright.wikimedia.org",
