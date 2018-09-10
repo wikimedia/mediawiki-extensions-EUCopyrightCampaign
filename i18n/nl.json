@@ -3,7 +3,8 @@
 		"authors": [
 			"Ciell",
 			"Optilete",
-			"SRientjes"
+			"SRientjes",
+			"Goefie"
 		]
 	},
 	"contactyourmep": "Neem contact op met je afgevaardigde",
@@ -31,7 +32,7 @@
 	"eucc-email-first-name-input-placeholder": "Voornaam",
 	"eucc-email-last-name-input-placeholder": "Achternaam",
 	"eucc-email-custom-text-placeholder": "(Eventueel: beschrijf hier een online-activiteit die je vaak doet, zoals berichten versturen, foto’s posten, Wikipedia bewerken)",
-	"eucc-email-email-input-placeholder": "emailadres",
+	"eucc-email-email-input-placeholder": "E-mailadres",
 	"eucc-option-protect-public-domain-label": "Bescherm het publieke domein",
 	"eucc-option-protect-public-domain-text-v1": "Het Europees Parlement moet ervoor zorgen dat iedereen online kan genieten van werken in het publieke domein, net zoals ze dat in levende lijve kunnen. Wikipedia werkt veel met werken in het publieke domein, zoals schilderijen van impressionisten of oude wereldkaarten, om artikelen te illustreren.",
 	"eucc-option-protect-public-domain-text-v2": "Het Europees Parlement moet ervoor zorgen dat iedereen online kan genieten van werken in het publieke domein, net zoals ze dat in levende lijve kunnen. Werk in het publieke domein verrijkt de wereld van kennis en cultuur, en maakt educatieve projecten zoals Wikipedia uiteindelijk nog relevanter.",
@@ -67,9 +68,9 @@
 	"eucc-contact-button-generate-mail-label": "Genereer email",
 	"eucc-dialog-mark-as-done-label": "Vink af",
 	"eucc-mail-dialog-copy-text-label": "Kopieer tekst",
-	"eucc-mail-dialog-send-mail-label": "Verzend email",
-	"eucc-mail-dialog-title": "Email je afgevaardigde",
-	"eucc-mail-dialog-top-label": "Je email is klaar om verstuurd te worden.",
+	"eucc-mail-dialog-send-mail-label": "Verzend e-mail",
+	"eucc-mail-dialog-title": "E-mail je afgevaardigde",
+	"eucc-mail-dialog-top-label": "Uw e-mail is klaar om verstuurd te worden",
 	"eucc-mail-dialog-target-rep": "$1 $2",
 	"eucc-call-dialog-title": "Bel je vertegenwoordiger",
 	"eucc-tweet-at-rep-default-text": "Het is tijd voor #fixcopyright. Ik ondersteun een auteursrechtenwet die respect heeft voor ieders rechts om online te communiceren en kennis te creëren, verzamelen en met de wereld te delen. fixcopyright.wikimedia.org",

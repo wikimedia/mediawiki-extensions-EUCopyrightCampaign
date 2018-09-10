@@ -4,7 +4,8 @@
 			"Robert Vogel",
 			"Dejan Savuljesku",
 			"Nemo bis",
-			"Umherirrender"
+			"Umherirrender",
+			"Tgr"
 		]
 	},
 	"contactyourmep": "The name of the extension's entry in Special:SpecialPages",
@@ -60,11 +61,11 @@
 	"eucc-share-tweet-button-label": "Label for button that posts to Twitter",
 	"eucc-copy-to-clipboard-success": "Message alerting the user that the email address has been copied to their clipboard.",
 	"eucc-copy-to-clipboard-fail": "Message alerting the user that their email address could not be copied to their clipboard.",
-	"eucc-contact-button-call-short-label": "Short label for the button \"call your representative\".",
-	"eucc-contact-button-tweet-short-label": "Short label for the button \"tweet your representative\".",
+	"eucc-contact-button-call-short-label": "Short label for the button \"call your representative\".\n\nUsed in:\n* {{msg-mw|eucc-contact-top-alternatives-text}}\n* {{msg-mw|eucc-contact-top-alternatives-only-phone-text}}",
+	"eucc-contact-button-tweet-short-label": "Short label for the button \"tweet your representative\".\n\nUsed in:\n* {{msg-mw|eucc-contact-top-alternatives-text}}\n* {{msg-mw|eucc-contact-top-alternatives-only-phone-text}}",
 	"eucc-contact-button-call-label": "Long label for the button \"call your representative\".",
 	"eucc-contact-button-tweet-label": "Long label for the button \"tweet your representative\". Parameter:\n* $1 - Twitter username of the representative",
-	"eucc-contact-top-alternatives-text": "Text appearing before the email form, to offer instructions and alternative ways to contact a representative.\n\nParameters:\n* $1 - a verb representing an alternative action, such as \"tweet\"\n* $2 - a verb representing an alternative action, such as \"call\"",
+	"eucc-contact-top-alternatives-text": "Text appearing before the email form, to offer instructions and alternative ways to contact a representative.\n\nParameters:\n* $1 - a verb representing an alternative action, such as \"tweet\" (from {{msg-mw|eucc-contact-button-tweet-short-label}})\n* $2 - a verb representing an alternative action, such as \"call\" (from {{msg-mw|eucc-contact-button-call-short-label}})",
 	"eucc-contact-button-generate-mail-label": "Button label to generate the text of an email from the form data and display it in a dialog.",
 	"eucc-dialog-mark-as-done-label": "Label for button that marks the action as done",
 	"eucc-mail-dialog-copy-text-label": "Label for the button to copy the text of the email.",
@@ -75,5 +76,5 @@
 	"eucc-call-dialog-title": "Title of the call dialog",
 	"eucc-tweet-at-rep-default-text": "Default text when tweeting at representatives",
 	"eucc-twitter-dialog-title": "Title of tweet dialog",
-	"eucc-contact-top-alternatives-only-phone-text": "Text appearing before the email form, offering instructions and alternative ways to contact a representative - without Twitter."
+	"eucc-contact-top-alternatives-only-phone-text": "Text appearing before the email form, offering instructions and alternative ways to contact a representative - without Twitter.\n\n$1 - a verb representing an alternative action, such as \"call\" (from {{msg-mw|eucc-contact-button-call-short-label}})"
 }
