@@ -72,7 +72,7 @@
 	"eucc-mail-dialog-copy-text-label": "Copy text",
 	"eucc-mail-dialog-send-mail-label": "Send email",
 	"eucc-mail-dialog-title": "Email your representative",
-	"eucc-mail-dialog-top-label": "Your email is ready to be sent",
+	"eucc-mail-dialog-top-label": "Your email is ready to be sent.\n\nIf you encounter a problem when you click \"Send email\", use \"Copy text\" to copy the email body, paste it into your email application, and send to:",
 	"eucc-mail-dialog-target-rep": "$1 $2",
 	"eucc-call-dialog-title": "Call your representative",
 	"eucc-tweet-at-rep-default-text": "It’s time to #fixcopyright. I support a copyright framework for Europe that respects everyone's right to communicate effectively online as well as to collect, create, and share knowledge with the world. fixcopyright.wikimedia.org",
