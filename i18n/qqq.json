@@ -17,7 +17,7 @@
 	"eucc-country-picker-placeholder": "Label for country selection dropdown",
 	"eucc-representative-picker-layout-label": "Label for representative selection dropdown",
 	"eucc-contact-layout-label": "Label for second step of the process, composing the mail",
-	"eucc-email-greeting": "Greeting for the email. Paramter:\n* $1 - Name of the representative",
+	"eucc-email-greeting": "Greeting for the email. Parameter:\n* $1 - Name of the representative",
 	"eucc-email-user-info": "Information on the sender in mail. Parameters:\n* $1 - First name of sender\n* $2 - Second name of sender\n* $3 - Country of residence of the sender",
 	"eucc-email-part-one-v1": "First part of static email text, after custom text, but before issue (theme) selection - variation 1",
 	"eucc-email-part-one-v2": "First part of static email text, after custom text, but before issue (theme) selection - variation 2",
